@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>blog</title>
+	<link rel="stylesheet" href="blog.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap&subset=cyrillic" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+	<script src="button.js"></script>
+</head>
+<body>
+	<header class="header">
+		<div class="logo"><h2>Логотип</h2></div>
+		<nav class="navigation">
+			<input type="checkbox" name="button" id="button">
+			<label class="menu__btn" for="button">
+    		<span></span>
+  			</label>
+			<ul class="nav">
+				<li><a class="menu__item" href="index.html" target="index">Главная</a></li>
+				<li><a class="menu__item" href="index.html" target="#portfolio">Портфолио</a></li>
+				<li><a class="menu__item" href="itsMe.html" target="itsMe">Обо мне</a></li>
+				<li><a class="menu__item" href="#">Блог</a></li>
+				<li><a class="menu__item" href="#contacts">Контакты</a></li>
+			</ul>
+		</nav>	
+	</header>
+	<section class="blog">
+		<div class="blog_container">
+			<div class="blog_block">
+				<div class=linkImg>
+				<a href="#"><img src="pic/b1.jpg"></a>
+				</div>
+				<div class="text_block">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas voluptatibus blanditiis corporis ipsam.</p>
+				</div>
+				<div class="top_text_block">
+					<div class="leftBlock">
+						<p>Example 1</p>
+						<p>09.10.19</p>
+					</div>
+					<div class="rightBlock">
+						<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><br>
+						<p>23</p>
+					</div>
+				</div>
+			</div>	
+			<div class="blog_block">
+				<div class=linkImg>
+				<a href="#"><img src="pic/b2.jpg"></a>
+				</div>
+				<div class="text_block">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia fugiat sunt similique, doloribus in error.</p>
+				</div>
+				<div class="top_text_block">
+					<div class="leftBlock">
+						<p>Example 2</p>
+						<p>09.10.19</p>
+					</div>
+					<div class="rightBlock">
+						<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><br>
+						<p>40</p>
+					</div>
+				</div>
+			</div>
+			<div class="blog_block">
+				<div class=linkImg>
+				<a href="#"><img src="pic/b3.jpg"></a>
+				</div>
+				<div class="text_block">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, molestiae, a! Hic reprehenderit officia.</p>
+				</div>
+				<div class="top_text_block">
+					<div class="leftBlock">
+						<p>Example 3</p>
+						<p>09.10.19</p>
+					</div>
+					<div class="rightBlock">
+						<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><br>
+						<p>13</p>
+					</div>
+				</div>
+			</div>
+			<div class="blog_block">
+				<div class=linkImg>
+					<a href="#"><img src="pic/b4.jpg"></a>
+				</div>
+				<div class="text_block">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, molestiae, a! Hic reprehenderit officia.</p>
+				</div>
+				<div class="top_text_block">
+					<div class="leftBlock">
+						<p>Example 4</p>
+						<p>09.10.19</p>
+					</div>
+					<div class="rightBlock">
+						<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><br>
+						<p>15</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="connect">
+		<div class="connect-block">
+			<div id="container" class="container">
+				<h3 class="form-title">
+					 Связаться со мной	
+				</h3>
+				<div class="block-form">
+					<form action="#">
+						<input type="text" name="name" placeholder="Имя" required class="input"> 
+						<input type="email" name="email" placeholder="E-mail" required class="input"> 
+						<input type="tel" name="phone" placeholder="Телефон" required class="input">
+						<input type="text" name="text" placeholder="Сообщение" required class="input">	
+						<button type="submit" class="btn btn-form">Отправить</button>
+					</form>
+				</div>
+			</div>
+			<div class="contacts" id="contacts">
+				<h3>Контакты</h3>
+				<div class="email-block">
+					<p>E-MAIL</p>
+					<a href="https://www.google.com/intl/ru/gmail/about/">qwerty@gmail.com</a>
+				</div>
+				<div class="tel-block">
+					<p>ТЕЛЕФОН</p>
+					<p>+7 (987) 654-32-10</p>
+				</div>
+				<div class="social-block">
+					<a href="https://vk.com/"><img src="pic/VK_icon.png" alt="vk"></a>
+					<a href="https://www.instagram.com/?hl=ru"><img src="pic/instagram_icon.png" alt="instagram"></a>
+					<a href="https://twitter.com/?lang=ru"><img src="pic/twitter.png" alt="twitter"></a>
+				</div>
+			</div>
+		</div>	
+	</section>
+	<footer><h4>Copyright © Морозов Аркадий 2019г. Все авторсике права защищены.</h4>
+	</footer>
+</body>
+</html>

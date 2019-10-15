@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>ItsMe</title>
+	<link rel="stylesheet" href="itsMe.css">
+	<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap&subset=cyrillic" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="button.js"></script>
+</head>
+<body>
+	<header class="header">
+		<div class="logo"><h2>Логотип</h2></div>
+		<nav class="navigation">
+			<input type="checkbox" name="button" id="button">
+			<label class="menu__btn" for="button">
+    		<span></span>
+  			</label>
+			<ul class="nav">
+				<li><a class="menu__item" href="index.html" target="index">Главная</a></li>
+				<li><a class="menu__item" href="index.html" target="#portfolio">Портфолио</a></li>
+				<li><a class="menu__item" href="#">Обо мне</a></li>
+				<li><a class="menu__item" href="Blog.html">Блог</a></li>
+				<li><a class="menu__item" href="#contacts">Контакты</a></li>
+			</ul>
+		</nav>	
+	</header>
+	<section class="aboutMe">
+		<div class="aboutMe_container">
+			<div class="photo">
+			</div>
+			<div class="aboutMe_text">
+				<h3 class="aboutMe_title">Аркадий Морозов</h3>
+				<h2>Frontend разработчик</h2>
+				<p>Основная специализация: верстка сайтов, интернет магазинов и Landing Page (фиксированная, резиновая, адаптивная).</p>
+				<p><i>Валидная</i>, <i>кроссбраузерная верстка</i>, прокомментированный код - те стандарты, к которым я стремлюсь выполняя каждый проект.</p>
+			</div>
+		</div>
+	</section>
+	<section class="skills">
+		<div class="skills_title">
+			<h2>Используемые инструменты</h2>
+		</div>
+		<div class=skills_icon>
+			<input type=radio name=radio id=r1 checked>
+			<img src="pic/logoPS.png">
+			<input type=radio name=radio id=r2>
+			<img src="pic/logojQ.png">
+			<input type=radio name=radio id=r3>
+			<img src="pic/logoH5C3.png">
+		</div>
+	</section>
+	<section class="connect">
+		<div class="connect-block">
+			<div id="container" class="container">
+				<h3 class="form-title">
+					 Связаться со мной	
+				</h3>
+				<div class="block-form">
+					<form action="#">
+						<input type="text" name="name" placeholder="Имя" required class="input"> 
+						<input type="email" name="email" placeholder="E-mail" required class="input"> 
+						<input type="tel" name="phone" placeholder="Телефон" required class="input">
+						<input type="text" name="text" placeholder="Сообщение" required class="input">	
+						<button type="submit" class="btn btn-form">Отправить</button>
+					</form>
+				</div>
+			</div>
+			<div class="contacts" id="contacts">
+				<h3>Контакты</h3>
+				<div class="email-block">
+					<p>E-MAIL</p>
+					<a href="https://www.google.com/intl/ru/gmail/about/">qwerty@gmail.com</a>
+				</div>
+				<div class="tel-block">
+					<p>ТЕЛЕФОН</p>
+
+					<p>+7 (987) 654-32-10</p>
+				</div>
+				<div class="social-block">
+					<a href="https://vk.com/"><img src="pic/VK_icon.png" alt="vk"></a>
+					<a href="https://www.instagram.com/?hl=ru"><img src="pic/instagram_icon.png" alt="instagram"></a>
+					<a href="https://twitter.com/?lang=ru"><img src="pic/twitter.png" alt="twitter"></a>
+				</div>
+			</div>
+		</div>	
+	</section>
+	<footer><h4>Copyright © Морозов Аркадий 2019г. Все авторсике права защищены.</h4>
+	</footer>
+</body>
+</html>
