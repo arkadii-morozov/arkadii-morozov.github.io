@@ -30,7 +30,7 @@ $(window).on( "load", init);
 
 function init(){
     var count = false;
-    $('.menu__btn').on('click', () =>{
+    $('.menu__btn').on('click', function(){
         count = !count;
         if(count){
             console.log(count);
@@ -39,5 +39,5 @@ function init(){
             console.log(count);
             $('.drop-nav').slideUp();
         }
-});
+    });
 };
