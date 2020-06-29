@@ -24,7 +24,7 @@
 // 		drop.style.display = "none";
 // 		drop.style.zIndex = "0";
 // 	}
-// } 
+// } css({'display':'block'}); 
 
 $(window).on( "load", init);
 
@@ -33,8 +33,8 @@ function init(){
     $('.menu__btn').on('click', () =>{
         count = !count;
         if(count){
-            $(".drop-nav").css({'display':'block'});    
+            $(".drop-nav").slideDown(150);   
         } else{
-            $(".drop-nav").css({'display':'none'});    
+            $(".drop-nav").slideUp(150);
         }
     })};
