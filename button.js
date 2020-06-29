@@ -37,5 +37,4 @@ function init(){
         } else{
             $(".drop-nav").css({'display':'none'});    
         }
-        console.log(count);
     })};
