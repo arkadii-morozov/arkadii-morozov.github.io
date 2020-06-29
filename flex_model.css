@@ -42,14 +42,14 @@ input{
 	width:600px;
 	height: 100px;
 }
-.nav, .drop-nav{
+.nav, .drop-nav, #test{
 	list-style-type: none;
 	display:flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
-.drop-nav{
+.drop-nav, #test{
 	display: none;
 	z-index:1000;
 	-webkit-user-select: none;
