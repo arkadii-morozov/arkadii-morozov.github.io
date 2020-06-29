@@ -39,10 +39,5 @@ function init(){
             console.log(count);
             $('.drop-nav').slideUp();
         }
-    })};
-
-$(function () {
-    $("#submitBtn").click(function (event) {
-        $(".subscribe p").slideDown();
-    });
 });
+};
