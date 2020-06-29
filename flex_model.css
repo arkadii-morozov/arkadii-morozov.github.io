@@ -53,7 +53,7 @@ input{
 	display: none;
 	z-index:1000;
 }
-.nav a{
+.nav a, .drop-nav a{
 	display: block;
 	text-decoration:none;
 	font-family: 'Oswald', sans-serif;
@@ -330,9 +330,9 @@ footer{
   position: absolute;
 /*  top: 10px;
   left: 20px;*/
-  margin: 10px auto 10px auto;
-  width: 26px;
-  height: 26px;
+  margin: 12px auto;
+  width: 25px;
+  height: 25px;
   cursor: pointer;
   z-index: 1;
 }
