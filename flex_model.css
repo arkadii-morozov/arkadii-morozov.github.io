@@ -4,7 +4,7 @@
 	font-family: 'Open Sans', sans-serif; 
 }
 h1 {
-	font-size: 30px;
+	font-size: 25px;
 }
 h2{
 	font-size: 25px;
@@ -16,7 +16,7 @@ h4{
 	font-size: 14px;
 }
 p{
-	font-size: 25px;
+	font-size: 22px;
 }
 input{
 	display: none;
@@ -152,6 +152,7 @@ input{
     font-family: 'Open Sans', sans-serif;
 	height: 35px;
 	width: 350px;
+	padding-left: 10px;
 }
 .btn{
 	display: block;
@@ -248,31 +249,48 @@ footer{
 }
 /*=====768px-992px=======*/
 @media screen and (max-width: 992px){
+	h1{
+		font-size: 22px;
+	}
+	.header{
+		height: 70px;
+	}
 	.logo{
 		width:150px;
-		height: 100px;
+		height: 70px;
 		background: yellow;
 	}
+	.logo h2 {
+    	 	line-height: 70px;
+		font-size: 22px;
+	}
 	.navigation{
-		width:500px;
-		height: 100px;
+		width: 430px;
+		height: 70px;
+	}
+	.nav a, .drop-nav a {
+    		line-height: 70px;
+		font-size: 20px;
 	}
 	/*=============home-page==================*/
 	.welcome_background{
 		transform: scale(0.333);
 		transform-origin: left top; /*откуда трансформирвоатьтся*/
 		width: 300%; /* 1/scale */
-		height: 1200px;
+		height: 1143px;
 		background-size: 300% auto; /* = width*/
 	}
-		.welcome {
-			transform: scale(3);
+	.welcome {
+		transform: scale(3);
     		margin-top: 800px;
-	  		text-align: center;
-		}
+	  	text-align: center;
+	}
+	.welcome p {
+    		font-size: 18px;
+	}
 	/*===============Portfolio============ */
 	.portfolio{
-		margin-top: -800px; /* =height * (1 - scale) */
+		margin-top: -765px; /* =height * (1 - scale) */
 	}
 	.head{
 		height: 150px;
