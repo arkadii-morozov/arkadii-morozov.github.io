@@ -52,6 +52,9 @@ input{
 .drop-nav{
 	display: none;
 	z-index:1000;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
 }
 .nav a, .drop-nav a{
 	display: block;
