@@ -2,12 +2,12 @@ window.onload = init();
 // var i =0;
 function init(){
 	var count = false;
-	var drop = document.querySelector(".drop-nav");
 	var btn = document.querySelector(".menu__btn");
-	btn.onclick = dropMenu(drop,count);
+	btn.onclick = dropMenu(count);
 }
 
-function dropMenu(drop,count){
+function dropMenu(count){
+	var drop = document.querySelector(".drop-nav");
 	console.log(count);
 	console.log(drop);
 	count = !count;
