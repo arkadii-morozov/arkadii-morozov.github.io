@@ -38,4 +38,4 @@ function init(){
             $(".drop-nav").css({'display':'none'});    
         }
         console.log(count);
-    });
+    })};
