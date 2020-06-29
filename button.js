@@ -40,3 +40,9 @@ function init(){
             $('.drop-nav').slideUp();
         }
     })};
+
+$(function () {
+    $("#submitBtn").click(function (event) {
+        $(".subscribe p").slideDown();
+    });
+});
