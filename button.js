@@ -33,8 +33,10 @@ function init(){
     $('.menu__btn').on('click', () =>{
         count = !count;
         if(count){
-            $(".drop-nav").slideDown(150);   
+            console.log(count);
+            $(".drop-nav").slideDown("150");   
         } else{
-            $(".drop-nav").slideUp(150);
+            console.log(count);
+            $(".drop-nav").slideUp("150");
         }
     })};
