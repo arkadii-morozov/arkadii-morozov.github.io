@@ -42,15 +42,16 @@ input{
 	width:600px;
 	height: 100px;
 }
-.nav {
+.nav, .drop-nav{
 	list-style-type: none;
 	display:flex;
-	flex-direction: row;  /*направление главной оси слева на право*/
-	flex-wrap: wrap; /* разрешить перенос строк*/
+	flex-direction: row;
+	flex-wrap: wrap;
 	justify-content: space-between;
 }
 .drop-nav{
 	display: none;
+	z-index:1000;
 }
 .nav a{
 	display: block;
