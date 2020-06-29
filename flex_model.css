@@ -49,6 +49,9 @@ input{
 	flex-wrap: wrap; /* разрешить перенос строк*/
 	justify-content: space-between;
 }
+.drop-nav{
+	display: none;
+}
 .nav a{
 	display: block;
 	text-decoration:none;
@@ -350,7 +353,7 @@ footer{
   content: '';
   top: 8px;
 }
-.nav {
+.nav, .drop-nav {
 	display: none;
 	position: absolute;
 	flex-direction: column;
@@ -358,13 +361,13 @@ footer{
 	justify-content: space-between;
 	margin-top: 50px;
 }
-.nav li{
+.nav li, .drop-nav li{
 	display: block;
 	height: 20px;
 	width: 100px;
 	margin: 0px auto 10px auto;
 }
-.nav a{
+.nav a, .drop-nav a{
 	font-size: 20px;
 	line-height: 20px;
 }
