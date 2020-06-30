@@ -226,14 +226,16 @@ footer{
 	color: #fff;
 }
 .scrollup{
-	z-index: 999;
-	width:40px;
-	height:40px;
-	opacity:0.3;
-	position:fixed;
-	bottom:50px;
-	left:70px;
-	display:none;
+	color: black;
+    	z-index: 999;
+    	width: 45px;
+    	height: 45px;
+    	opacity: 0.5;
+    	position: fixed;
+    	bottom: 60px;
+    	right: 60px;
+    	display: none;
+	font-size: 45px;
 }
 /*==================Adaptiv=============*/
 /*992px-1200px*/
