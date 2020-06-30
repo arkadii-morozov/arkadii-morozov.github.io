@@ -34,10 +34,10 @@ function init(){
         count = !count;
         if(count){
             console.log(count);
-            $('.drop-nav').slideDown(150);   
+            $('.drop-nav').slideDown(100);   
         } else{
             console.log(count);
-            $('.drop-nav').slideUp(150);
+            $('.drop-nav').slideUp(100);
         }
     });
 };
