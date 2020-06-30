@@ -225,6 +225,17 @@ footer{
 	font-size: 14px; 
 	color: #fff;
 }
+.scrollup{
+	z-index: 999;
+	width:40px;
+	height:40px;
+	opacity:0.3;
+	position:fixed;
+	bottom:50px;
+	left:70px;
+	display:none;
+	text-indent:-9999px;
+}
 /*==================Adaptiv=============*/
 /*992px-1200px*/
 @media screen and (max-width: 1200px){
