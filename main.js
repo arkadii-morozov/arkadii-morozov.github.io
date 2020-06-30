@@ -59,4 +59,23 @@ function init(){
         $("html, body").animate({ scrollTop: 0 }, 600);
         return false;
     });
+    /**
+    * Owl Carousel
+    */
+    $(function() {
+        var owl = $(".owl-carousel");
+        owl.owlCarousel({
+        items: 1,
+        margin: 10,
+        loop: true,
+        nav: true
+    });
+        
+    $(".next_button").click(function(){
+        owl.trigger("next.owl.carousel");
+    });
+ 
+    $(".prev_button").click(function(){
+        owl.trigger("prev.owl.carousel");
+    });
 };
