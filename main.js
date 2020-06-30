@@ -30,7 +30,7 @@ $(window).on( "load", init);
 
 function init(){
     var count = false;
-    $('.menu__btn').on('click', function(){
+    $('.navigation').on('click', function(){
         count = !count;
         if(count){
             console.log(count);
