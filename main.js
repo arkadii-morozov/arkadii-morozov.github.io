@@ -70,6 +70,7 @@ function init(){
         loop: true,
         nav: true
     });
+    });        
         
     $(".next_button").click(function(){
         owl.trigger("next.owl.carousel");
