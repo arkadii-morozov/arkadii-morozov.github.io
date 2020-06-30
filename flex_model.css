@@ -69,20 +69,29 @@ input{
 }
 /*=============home-page==================*/
 .welcome_background{
-	flex-direction: row;  /*направление главной оси слева на право*/
-	justify-content: space-around;
+	/*flex-direction: row;  направление главной оси слева на право*/
+/* 	justify-content: space-around;
 	display: flex;
-	transform: scale(0.333);
-	transform-origin: left top; /*откуда трансформирвоатьтся*/
-	width: 300%; /* 1/scale */
-	height: 1200px;
-	background: url(pic/new_background_page_1296_648.png) fixed no-repeat;
-	background-size: 300% auto; /* = width*/
+	transform: scale(0.333); */
+	/*transform-origin: left top; откуда трансформирвоатьтся*/
+	/*width: 300%;  1/scale */
+/* 	height: 1200px;
+	background: url(pic/new_background_page_1296_648.png) fixed no-repeat; */
+	/* background-size: 300% auto; = width*/
+	
+	flex-direction: column;
+    	justify-content: center;
+    	display: flex;
+    	width: 100%;
+    	height: calc(100vh - 100px);
+    	background: url(pic/new_background_page_1296_648.png) 100% 100% no-repeat;
+    	background-size: cover;
 }
 	.welcome  {
-		transform: scale(3);
-		margin-top: 800px;
-  		text-align: center;
+		/* transform: scale(3); */
+/*     		margin-top: px; */
+		text-align: center;
+		min-height: 200px;
 	}
 	.welcome p{
 		color:white;
@@ -95,7 +104,7 @@ input{
 
 /*===============Portfolio============ */
 .portfolio{
-	margin-top: -800px;
+/* 	margin-top: -800px; */
 	background: #FEFEFE;
 	display: flex;
 	flex-wrap: wrap;
@@ -279,28 +288,16 @@ footer{
 	}
 	/*=============home-page==================*/
 	.welcome_background{
-		transform: scale(0.333);
-		transform-origin: left top; /*откуда трансформирвоатьтся*/
-		width: 300%; /* 1/scale */
-		height: 1143px;
-		background-size: 300% auto; /* = width*/
-	}
-	.welcome {
-		transform: scale(3);
-    		margin-top: 800px;
-	  	text-align: center;
+    		height: calc(100vh - 70px);
 	}
 	.welcome p {
     		font-size: 18px;
 	}
 	/*===============Portfolio============ */
-	.portfolio{
-		margin-top: -765px; /* =height * (1 - scale) */
-	}
 	.head{
 		height: 150px;
 		text-align: center;
-	    line-height: 150px;
+	    	line-height: 150px;
 		flex-basis: 100%;
 	}
 	.wrapper{
