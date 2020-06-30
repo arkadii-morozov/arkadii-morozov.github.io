@@ -4,7 +4,6 @@
 	font-family: 'Open Sans', sans-serif; 
 }
 h1 {
-	color:white;
 	font-size: 25px;
 }
 h2{
@@ -89,6 +88,9 @@ input{
 		color:white;
 		font-size: 20px;
 		margin-top: 10px;
+	}
+	.welcome h1{
+		color:white;
 	}
 
 /*===============Portfolio============ */
