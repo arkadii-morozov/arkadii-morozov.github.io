@@ -40,4 +40,11 @@ function init(){
             $('.drop-nav').slideUp(100);
         }
     });
+    
+    $(window).resize(function() {
+        var widthDisp = number($(window).width()+16);
+        if ( widthDisp >= 768 ){
+             $('.drop-nav').slideUp(50);
+        }
+    });
 };
