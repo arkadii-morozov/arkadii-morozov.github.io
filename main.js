@@ -32,7 +32,7 @@ function init(){
     var count = false;
     $('.menu__btn').on('click', function(){
         count = !count;
-        if(count){
+        if(count && window.matchMedia('(max-width: 768px)').matches){
             console.log(count);
             $('.drop-nav').slideDown(100);   
         } else{
