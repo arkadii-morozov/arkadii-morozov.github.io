@@ -45,7 +45,6 @@ function init(){
         var widthDisp = $(window).width()+16;
         if ( widthDisp >= 768 ){
              $('.drop-nav').slideUp(50);
-            count = !count;
         }
     });
     
