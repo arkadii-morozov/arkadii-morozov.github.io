@@ -48,4 +48,17 @@ function init(){
             count = !count;
         }
     });
+    
+    $(window).scroll(function(){
+        if ($(this).scrollTop() > 350) {
+            $('.scrollup').fadeIn();
+        } else {
+            $('.scrollup').fadeOut();
+        }
+    });
+
+    $('.scrollup').on('click', function(){
+        $("html, body").animate({ scrollTop: 0 }, 600);
+        return false;
+    });
 };
