@@ -410,13 +410,9 @@ footer{
     	top: 13px;
 }
 /*==========welcome===========*/
-.welcome_background{
-	transform: scale(1);
-	/*transform-origin: left top;*/ /*откуда трансформирвоатьтся*/
-	width: 100%; /* 1/scale */
-	height: 500px;
-	background-size: cover; /* = width*/
-}
+	.welcome_background{
+		height: calc(100vh - 50px);
+	}
 	.welcome  {
         	min-height: 130px;
 	}
