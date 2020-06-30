@@ -33,19 +33,19 @@ function init(){
     $('.menu__btn').on('click', function(){
         count = !count;
         if(count){
-            console.log(count);
             $('.drop-nav').slideDown(100);   
         } else{
-            console.log(count);
             $('.drop-nav').slideUp(100);
         }
+        console.log(count);
     });
     
     $(window).resize(function() {
         var widthDisp = $(window).width()+16;
         if ( widthDisp >= 768 ){
-             $('.drop-nav').slideUp(50);
+             $('.drop-nav').slideUp(20);
         }
+        console.log(count);
     });
     
     $(window).scroll(function(){
