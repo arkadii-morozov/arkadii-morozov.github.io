@@ -37,7 +37,6 @@ function init(){
         } else{
             $('.drop-nav').slideUp(100);
         }
-        console.log(count);
     });
     
     $(window).resize(function() {
@@ -46,7 +45,6 @@ function init(){
              $('.drop-nav').slideUp(20);
              count = false;
         }
-        console.log(count);
     });
     
     $(window).scroll(function(){
