@@ -4,6 +4,7 @@
 	font-family: 'Open Sans', sans-serif; 
 }
 h1 {
+	color:white;
 	font-size: 25px;
 }
 h2{
@@ -85,6 +86,7 @@ input{
   		text-align: center;
 	}
 	.welcome p{
+		color:white;
 		font-size: 20px;
 	}
 
@@ -381,7 +383,7 @@ footer{
 	flex-direction: column;
 	flex-wrap: nowrap; 
 	justify-content: space-between;
-	margin-top: 60px;
+	top: 60px;
 }
 .nav li, .drop-nav li{
 	display: block;
