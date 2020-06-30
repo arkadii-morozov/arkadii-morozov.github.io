@@ -42,7 +42,7 @@ function init(){
     });
     
     $(window).resize(function() {
-        var widthDisp = number($(window).width()+16);
+        var widthDisp = $(window).width()+16;
         if ( widthDisp >= 768 ){
              $('.drop-nav').slideUp(50);
         }
