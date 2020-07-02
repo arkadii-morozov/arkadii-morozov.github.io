@@ -50,6 +50,7 @@
 .tools .tools-items .item{
 	width: 330px;
 	height: 180px;
+	margin: 0px auto;
 }
 .tools .tools-items .item > img{
     	width: 330px;
