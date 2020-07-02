@@ -44,7 +44,7 @@ function init(){
             autoplayTimeout:6000,
             dots : false,
             nav:true,
-            navTextnavText: [
+            navText: [
                 "<span class="fa-angle-left"></span>",
                 "<span class="fa-angle-right"></span>"
                             ]
