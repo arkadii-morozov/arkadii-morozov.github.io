@@ -47,9 +47,14 @@
 	justify-content: space-between;
 	align-items: center;
 }
-.tools-items > #item{
+.tools .tools-items .item{
 	width: 330px;
 	height: 200px;
+}
+.tools .tools-items .item > img{
+    	width: 330px;
+	height: 180px;
+	margin: 0px auto;
 }
 /*==================Adaptiv=============*/
 /*992px-1200px*/
