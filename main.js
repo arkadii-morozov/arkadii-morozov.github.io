@@ -67,8 +67,13 @@ function init(){
         owl.owlCarousel({
             loop:true,
             margin:10,
+            autoplay:true,
+            autoplayTimeout:6000,
             nav:true,
-            navText : ["",""],
+            navText: [
+                '<span class="owl-prev arrow-owl fa fa-angle-lef"></span>',
+                '<span class="owl-next arrow-owl fa fa-angle-right"></span>'
+            ],
             responsive:{
                 0:{
                     items:1
@@ -80,8 +85,6 @@ function init(){
                     items:5
                 }
             }
-            autoplay:true,
-            autoplayTimeout:6000,
         });
     });
 //         (function ($) {
