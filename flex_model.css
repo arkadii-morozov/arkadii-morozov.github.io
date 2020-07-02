@@ -21,6 +21,10 @@ p{
 input{
 	display: none;
 }
+.item img{
+    width: 330px;
+    height: 180px;
+}
 .header{
 	height: 100px;
 	background: #282828;
