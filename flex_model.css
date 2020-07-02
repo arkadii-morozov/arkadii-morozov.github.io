@@ -18,13 +18,6 @@ h4{
 p{
 	font-size: 22px;
 }
-input{
-	display: none;
-}
-.tools .tools-items .item > img{
-    width: 330px;
-    height: 180px;
-}
 .header{
 	height: 100px;
 	background: #282828;
