@@ -44,6 +44,10 @@ function init(){
             autoplayTimeout:6000,
             dots : false,
             nav:true,
+            navTextnavText: [
+                "<span class="fa-angle-left"></span>",
+                "<span class="fa-angle-right"></span>"
+                            ]
 //             responsive:{
 //                 0:{
 //                     items:1
