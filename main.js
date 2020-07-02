@@ -62,21 +62,26 @@ function init(){
     /**
     * Owl Carousel
     */
-    $(function() {
+     (function ($) {
         var owl = $(".owl-carousel");
         owl.owlCarousel({
         items: 1,
         margin: 10,
         loop: true,
         nav: true
+    })(jQuery);
     });
-    });        
+//         (function ($) {
+//         $('.owl-carousel').owlCarousel({
+//             ...
+//         });
+//     })(jQuery);
         
-    $(".next_button").click(function(){
-        owl.trigger("next.owl.carousel");
-    });
+//     $(".next_button").click(function(){
+//         owl.trigger("next.owl.carousel");
+//     });
  
-    $(".prev_button").click(function(){
-        owl.trigger("prev.owl.carousel");
-    });
+//     $(".prev_button").click(function(){
+//         owl.trigger("prev.owl.carousel");
+//     });
 };
