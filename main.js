@@ -67,6 +67,7 @@ function init(){
         owl.owlCarousel({
             loop:true,
             margin:10,
+            items:1,
             autoplay:true,
             autoplayTimeout:6000,
             nav:true,
@@ -74,26 +75,21 @@ function init(){
                 '<span class="owl-prev arrow-owl fa fa-angle-lef"></span>',
                 '<span class="owl-next arrow-owl fa fa-angle-right"></span>'
             ],
-            responsive:{
-                0:{
-                    items:1
-                },
-                600:{
-                    items:3
-                },
-                1000:{
-                    items:5
-                }
-            }
+//             responsive:{
+//                 0:{
+//                     items:1
+//                 },
+//                 600:{
+//                     items:3
+//                 },
+//                 1000:{
+//                     items:5
+//                 }
+//             }
         });
     });
-//         (function ($) {
-//         $('.owl-carousel').owlCarousel({
-//             ...
-//         });
-//     })(jQuery);
-        
-//     $(".next_button").click(function(){
+
+    //     $(".next_button").click(function(){
 //         owl.trigger("next.owl.carousel");
 //     });
  
