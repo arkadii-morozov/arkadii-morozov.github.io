@@ -64,12 +64,22 @@ function init(){
     */
     $(function() {
         var owl = jQuery(".owl-carousel");
-        console.log(owl);
         owl.owlCarousel({
-            items: 1,
-//             margin: 10,
-            loop: true,
-            nav: true,
+            loop:true,
+            margin:10,
+            nav:true,
+            navText : ["",""],
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:3
+                },
+                1000:{
+                    items:5
+                }
+            }
             autoplay:true,
             autoplayTimeout:6000,
         });
