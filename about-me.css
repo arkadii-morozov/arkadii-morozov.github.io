@@ -73,11 +73,17 @@ font-size: 20px;
     	height: 30px;
 }
 */
-.tools .owl-carousel button, 
-.tools .owl-carousel button:hover {
+.tools .owl-carousel .owl-next, 
+.tools .owl-carousel .owl-prev {
 /*     background: transparent; */
-    padding: 0;
-    border: none;
+    	padding: 0;
+    	border: none !important;
+}
+.owl-next:hover, owl-prev:hover{
+	border: none !important;
+}
+.fa-angle-right,fa-angle-left{
+	border:none !important;
 }
 /*==================Adaptiv=============*/
 /*992px-1200px*/
