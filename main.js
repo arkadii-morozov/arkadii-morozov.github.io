@@ -70,12 +70,12 @@ function init(){
             items:1,
             autoplay:true,
             autoplayTimeout:6000,
-            pagination : true,
+            pagination : false,
             nav:true,
-            navText: [
-                '<span class="fa fa-angle-lef fa-4x"></span>',
-                '<span class="fa fa-angle-right fa-4x"></span>'
-            ],
+//             navText: [
+//                 '<span class="fa fa-angle-lef fa-4x"></span>',
+//                 '<span class="fa fa-angle-right fa-4x"></span>'
+//             ],
 //             responsive:{
 //                 0:{
 //                     items:1
