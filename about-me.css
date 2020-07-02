@@ -58,14 +58,14 @@
 	margin: 0px auto;
 }
 
-/*.tools-items .fa-angle-left, .tools-items .fa-angle-right{
-	position: absolute;
-font-size: 20px; 
+.tools-items .fa-angle-left, .tools-items .fa-angle-right{
+/* 	position: absolute; */
+	font-size: 20px; 
     	width: 30px;
     	height: 30px;
 }
 
-.tools .owl-carousel .owl-nav button.owl-next, 
+/*.tools .owl-carousel .owl-nav button.owl-next, 
 .tools .owl-carousel .owl-nav button.owl-prev{
 	position: absolute;
     	font-size: 20px; 
@@ -73,10 +73,10 @@ font-size: 20px;
     	height: 30px;
 }
 */
-.tools .owl-carousel .owl-next, 
-.tools .owl-carousel .owl-prev {
+/* .tools .owl-carousel .owl-next, 
+.tools .owl-carousel .owl-prev { */
 /*     background: transparent; */
-    	padding: 0;
+/*     	padding: 0;
     	border: none !important;
 }
 .owl-next:hover, owl-prev:hover{
@@ -84,7 +84,7 @@ font-size: 20px;
 }
 .fa-angle-right,fa-angle-left{
 	border:none !important;
-}
+} */
 /*==================Adaptiv=============*/
 /*992px-1200px*/
 @media screen and (max-width: 1200px){
