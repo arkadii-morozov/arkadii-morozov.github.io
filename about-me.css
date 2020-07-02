@@ -47,7 +47,7 @@
 	justify-content: space-between;
 	align-items: center;
 }
-.tools-items > .item{
+.tools-items > #item{
 	width: 330px;
 	height: 200px;
 }
