@@ -71,7 +71,7 @@ function init(){
             loop: true,
             nav: true,
             autoplay:true,
-            autoplayTimeout:1000,
+            autoplayTimeout:6000,
         });
     });
 //         (function ($) {
