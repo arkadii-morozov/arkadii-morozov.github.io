@@ -39,11 +39,17 @@
 	text-align: center;
 }
 .tools-items{
+	height: 400px;
 	width: 1000px;
 	margin: 0px auto;
 	display: flex;
 	flex-flow: nowrap row;
 	justify-content: space-between;
+	align-items: center;
+}
+.tools-items > .item{
+	width: 330px;
+	height: 200px;
 }
 /*==================Adaptiv=============*/
 /*992px-1200px*/
