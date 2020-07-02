@@ -21,7 +21,7 @@ p{
 input{
 	display: none;
 }
-.tools tools-items .item img{
+.tools .tools-items .item > img{
     width: 330px;
     height: 180px;
 }
