@@ -67,9 +67,11 @@ function init(){
         console.log(owl);
         owl.owlCarousel({
             items: 1,
-            margin: 10,
+//             margin: 10,
             loop: true,
-            nav: true
+            nav: true,
+            autoplay:true,
+            autoplayTimeout:1000,
         });
     });
 //         (function ($) {
