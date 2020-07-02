@@ -26,8 +26,8 @@
 .aboutMe_title, h2, .aboutMe_text>p:nth-of-type(1){
 	margin-bottom: 20px;
 }
-/*=============skills==================*/
-.skills{
+/*=============tools==================*/
+.tools{
 	background: #F5F5f5;	
 	padding: 50px 0px;
 	border-bottom: solid 1px #DFDFDF;
@@ -35,18 +35,15 @@
 	flex-direction: column;
 	flex-wrap: nowrap;
 }
-.skills_title{
+.tools-title{
 	text-align: center;
 }
-.skills_icon{
+.tools-item{
 	width: 1000px;
 	margin: 0px auto;
 	display: flex;
 	flex-flow: nowrap row;
 	justify-content: space-between;
-}
-.skills_icon > input{
-	display: none;
 }
 /*==================Adaptiv=============*/
 /*992px-1200px*/
@@ -63,8 +60,8 @@
 .aboutMe_text{
 	width: 600px;
 }
-/*===========skills=====================*/
-.skills_icon {
+/*===========tools=====================*/
+.tools-item {
     width: 992px;
 }
 }
@@ -82,11 +79,11 @@
 .aboutMe_text{
 	width: 500px;
 }
-/*===========skills=====================*/
-.skills_icon {
+/*===========tools=====================*/
+.tools-item {
     width: 768px;
 }
-.skills_icon>img{
+.tools-item>img{
 	width: 250px;
 }
 }
@@ -112,12 +109,12 @@
 .aboutMe_title, .aboutMe_title+h2{
 	text-align: center;
 }
-/*==========askills-icon===========*/
-.skills_icon{
+/*==========tools===========*/
+.tools-item{
 	flex-direction: column;
 	width: 576px;
 }
-.skills_icon>img{
+.tools-item>img{
 	width: 250px;
 	margin:0px auto;
 }
@@ -138,7 +135,7 @@
     width: 350px;
     padding: 20px;
 }
-.skills_icon {
+.tools-item {
     flex-direction: column;
     width: 350px;
 }
