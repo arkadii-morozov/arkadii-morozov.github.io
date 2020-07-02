@@ -62,8 +62,8 @@ function init(){
     /**
     * Owl Carousel
     */
-    jQuery(function($){
-        var owl = $(".owl-carousel");
+    $(function() {
+        var owl = jQuery(".owl-carousel");
         console.log(owl);
         owl.owlCarousel({
             items: 1,
