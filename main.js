@@ -70,10 +70,11 @@ function init(){
             items:1,
             autoplay:true,
             autoplayTimeout:6000,
+            pagination : true,
             nav:true,
             navText: [
-                '<span class="owl-prev arrow-owl fa fa-angle-lef"></span>',
-                '<span class="owl-next arrow-owl fa fa-angle-right"></span>'
+                '<span class="fa fa-angle-lef fa-4x"></span>',
+                '<span class="fa fa-angle-right fa-4x"></span>'
             ],
 //             responsive:{
 //                 0:{
