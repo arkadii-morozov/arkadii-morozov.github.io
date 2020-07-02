@@ -70,7 +70,7 @@ function init(){
             items:1,
             autoplay:true,
             autoplayTimeout:6000,
-            pagination : false,
+            pagination : true,
             nav:true,
 //             navText: [
 //                 '<span class="fa fa-angle-lef fa-4x"></span>',
@@ -89,12 +89,4 @@ function init(){
 //             }
         });
     });
-
-    //     $(".next_button").click(function(){
-//         owl.trigger("next.owl.carousel");
-//     });
- 
-//     $(".prev_button").click(function(){
-//         owl.trigger("prev.owl.carousel");
-//     });
 };
