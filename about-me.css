@@ -57,7 +57,10 @@
 	height: 180px;
 	margin: 0px auto;
 }
-
+.tools .tools-items .owl-prev, .tools .tools-items .owl-next{
+	outline: none !important;
+	border: 0 !important;
+}
 /*==================Adaptiv=============*/
 /*992px-1200px*/
 @media screen and (max-width: 1200px){
