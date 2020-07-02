@@ -73,6 +73,12 @@ font-size: 20px;
     	height: 30px;
 }
 */
+.tools .owl-carousel button, 
+.tools .owl-carousel button:hover {
+/*     background: transparent; */
+    padding: 0;
+    border: none;
+}
 /*==================Adaptiv=============*/
 /*992px-1200px*/
 @media screen and (max-width: 1200px){
