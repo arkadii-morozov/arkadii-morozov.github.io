@@ -62,14 +62,15 @@ function init(){
     /**
     * Owl Carousel
     */
-     (function ($) {
+    jQuery(function($){
         var owl = $(".owl-carousel");
+        console.log(owl);
         owl.owlCarousel({
-        items: 1,
-        margin: 10,
-        loop: true,
-        nav: true
-    })(jQuery);
+            items: 1,
+            margin: 10,
+            loop: true,
+            nav: true
+        });
     });
 //         (function ($) {
 //         $('.owl-carousel').owlCarousel({
