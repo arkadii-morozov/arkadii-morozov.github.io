@@ -1,7 +1,7 @@
 /*=============blog==================*/
 .blog{
 	background: #F2F1EF;	
-	padding: 100px 0px;
+	padding: 50px 0px 30px 0px;
 	border-bottom: solid 1px #DFDFDF;
 }
 .blog p{
@@ -82,14 +82,14 @@ span{
 /*=====768px-992px=======*/
 @media screen and (max-width: 992px){
 /*=============blog==================*/
-	.blog{
-		padding: 100px 0px 50px 0px;
-	}
+/* 	.blog{
+		padding: 50px 0px 50px 0px;
+	} */
 	.blog_container{
-	width: 688px;
-	height: 820px;
-	flex-flow: wrap row;
-	/*justify-content: space-around;*/
+		width: 688px;
+		height: 820px;
+		flex-flow: wrap row;
+		/*justify-content: space-around;*/
 	}
 /* 	.blog_block{
 		width: 230px;
@@ -104,14 +104,14 @@ span{
 /*=====576px-768px========*/
 @media screen and (max-width: 768px) {
 /*=============blog==================*/
-	.blog{
+/* 	.blog{
 		padding: 100px 0px 50px 0px;
-	}
+	} */
 	.blog_container{
-	width: 576px;
-	height: 820px;
-	flex-flow: wrap row;
-	/*justify-content: space-around;*/
+		width: 576px;
+		height: 820px;
+		flex-flow: wrap row;
+		/*justify-content: space-around;*/
 	}
 /* 	.blog_block{
 		width: 230px;
@@ -126,7 +126,7 @@ span{
 /*=====350px-576px========*/
 @media screen and (max-width: 576px) {
 	.blog{
-		padding: 30px 0px 30px 0px;
+		padding: 30px 0px 10px 0px;
 	}
 	.blog_container{
 		width: 350px;
