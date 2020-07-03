@@ -144,7 +144,7 @@ p{
 /*============Contacts=============*/ 
 .connect{
 	background: #F8F8F8;	
-	padding: 100px 0px;
+	padding: 50px 0px;
 }
 .connect-block{
 	margin: 0px auto;
@@ -236,7 +236,7 @@ footer{
     	right: 60px;
     	display: none;
 }
-scrollup: hover{
+.scrollup: hover{
 	color: black;
 }
 /*==================Adaptiv=============*/
@@ -462,9 +462,9 @@ scrollup: hover{
 	height: 100%;
 }
 /*============Contacts=============*/ 
-.connect{
+/* .connect{
 	padding: 100px 0px 50px 0px;
-}
+} */
 .connect-block{
 	flex-direction: column;  /*направление главной оси слева на право*/
 	justify-content: space-between;
