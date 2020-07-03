@@ -277,6 +277,11 @@ footer{
   	30px 80px;
 	}
 }
+@media screen and (max-width: 1010px){
+	.scrollup{
+		right: 10px;
+	}
+}
 /*=====768px-992px=======*/
 @media screen and (max-width: 992px){
 	h1{
