@@ -45,8 +45,8 @@ function init(){
             dots : false,
             nav:true,
             navText: [
-                "<span class='fa fa-angle-left'></span>",
-                "<span class='fa fa-angle-right'></span>"
+                "<span class='fa fa-angle-left fa-5x'></span>",
+                "<span class='fa fa-angle-right fa-5x'></span>"
                             ]
 //             responsive:{
 //                 0:{
