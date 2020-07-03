@@ -86,9 +86,14 @@
 	outline: none !important;
 	border: 0 !important;
 }
-.tools .owl-theme .owl-nav button: hover{
+/*.tools .owl-theme .owl-nav button: hover{
 	background: transparent;
 	color: black;
+} */
+.tools .owl-theme .owl-nav [class*=owl-]:hover {
+    	background: transparent;
+	color: black;
+    	text-decoration: none;
 }
 /*==================Adaptiv=============*/
 /*992px-1200px*/
