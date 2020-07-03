@@ -236,6 +236,9 @@ footer{
     	right: 60px;
     	display: none;
 }
+scrollup: hover{
+	color: black;
+}
 /*==================Adaptiv=============*/
 /*992px-1200px*/
 @media screen and (max-width: 1200px){
