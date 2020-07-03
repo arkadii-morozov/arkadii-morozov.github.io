@@ -66,6 +66,7 @@
 }
 .tools .owl-theme .owl-nav button: hover{
 	background: transparent !important;
+	color: black;
 }
 .tools .owl-theme .owl-nav .owl-prev{
 	position: absolute;
