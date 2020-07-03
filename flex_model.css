@@ -228,14 +228,13 @@ footer{
 .scrollup{
 	color: black;
     	z-index: 999;
-    	width: 45px;
-    	height: 45px;
-    	opacity: 0.5;
+    	width: max-content;
+    	height: max-content;
+    	opacity: 0.4;
     	position: fixed;
     	bottom: 60px;
     	right: 60px;
     	display: none;
-	font-size: 45px;
 }
 /*==================Adaptiv=============*/
 /*992px-1200px*/
