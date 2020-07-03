@@ -86,13 +86,13 @@ span{
 	} */
 }
 /*=====768px-992px=======*/
-@media screen and (max-width: 992px){
+@media screen and (max-width: 1010px){
 /*=============blog==================*/
 /* 	.blog{
 		padding: 50px 0px 50px 0px;
 	} */
 	.blog_container{
-		width: 688px;
+		width: 750px;
 		/*justify-content: space-around;*/
 	}
 /* 	.blog_block{
