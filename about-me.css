@@ -64,10 +64,6 @@
     width: 100%;
     height: 100%;
 }
-.tools .owl-theme .owl-nav button: hover{
-	background: transparent !important;
-	color: black;
-}
 .tools .owl-theme .owl-nav .owl-prev{
 	position: absolute;
     	left: 0px;
@@ -75,7 +71,7 @@
     	width: 40%;
     	text-align: left;
 	color: rgba(33,33,33, 0.4);
-	background: transparent !important;
+	background: transparent;
 }
 .tools .owl-theme .owl-nav .owl-next{
 	position: absolute;
@@ -84,12 +80,15 @@
     	width: 40%;
     	text-align: right;
 	color: rgba(33,33,33, 0.4);
-	background: transparent !important;
+	background: transparent;
 }
 .tools .tools-items .owl-prev, .tools .tools-items .owl-next{
 	outline: none !important;
 	border: 0 !important;
-	background: transparent !important;
+}
+.tools .owl-theme .owl-nav button: hover{
+	background: transparent;
+	color: black;
 }
 /*==================Adaptiv=============*/
 /*992px-1200px*/
