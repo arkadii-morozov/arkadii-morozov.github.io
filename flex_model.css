@@ -238,6 +238,7 @@ footer{
 }
 .scrollup: hover{
 	color: black;
+	opacity: 1;
 }
 /*==================Adaptiv=============*/
 /*992px-1200px*/
