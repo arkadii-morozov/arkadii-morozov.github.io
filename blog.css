@@ -93,8 +93,6 @@ span{
 	} */
 	.blog_container{
 		width: 688px;
-		height: 820px;
-		flex-flow: wrap row;
 		/*justify-content: space-around;*/
 	}
 /* 	.blog_block{
@@ -115,8 +113,6 @@ span{
 	} */
 	.blog_container{
 		width: 576px;
-		height: 820px;
-		flex-flow: wrap row;
 		/*justify-content: space-around;*/
 	}
 /* 	.blog_block{
@@ -136,8 +132,6 @@ span{
 	}
 	.blog_container{
 		width: 350px;
-		height: 1800px;
-		flex-flow: wrap row;
 		/*justify-content: space-around;*/
 	}
 /* 	.blog_block{
