@@ -19,7 +19,7 @@ p{
 	font-size: 22px;
 }
 .header{
-	height: 100px;
+	height: 70px;
 	background: #282828;
 	display: flex;
 	flex-direction: row;  /*направление главной оси слева на право*/
@@ -28,19 +28,19 @@ p{
 }
 .logo{    
 	text-align: center;
-    	line-height: 100px;
+    	line-height: 70px;
     	font-size: 40px;
     	width: 240px;
-    	height: 100px;
+    	height: 70px;
     	background: yellow;
 }
 .logo h2{
 	text-align: center;
-	line-height: 100px;
+	line-height: 70px;
 }
 .navigation{
 	width:600px;
-	height: 100px;
+	height: 70px;
 }
 .name-menu{
 	display: none;
@@ -65,7 +65,7 @@ p{
 	font-family: 'Oswald', sans-serif;
 	font-size: 25px;
 	color: #f8f9fb;
-	line-height: 100px;
+	line-height: 70px;
 }
 .nav a:hover{
 	color: #a8e;
@@ -252,7 +252,7 @@ footer{
 	.head{
 		height: 150px;
 		text-align: center;
-	    line-height: 150px;
+	    	line-height: 150px;
 		flex-basis: 100%;
 	}
 	.wrapper{
@@ -283,25 +283,17 @@ footer{
 	h1{
 		font-size: 22px;
 	}
-	.header{
-		height: 70px;
-	}
 	.logo{
 		font-size: 30px;
-    		line-height: 70px;
     		width: 160px;
-    		height: 70px;
 	}
 	.logo h2 {
-    	 	line-height: 70px;
 		font-size: 22px;
 	}
 	.navigation{
 		width: 430px;
-		height: 70px;
 	}
 	.nav a, .drop-nav a {
-    		line-height: 70px;
 		font-size: 20px;
 	}
 	/*=============home-page==================*/
