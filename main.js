@@ -20,7 +20,7 @@ function init(){
     });
     
     $(window).scroll(function(){
-        if ($(this).scrollTop() > 350) {
+        if ($(this).scrollTop() > 150) {
             $('.scrollup').fadeIn();
         } else {
             $('.scrollup').fadeOut();
