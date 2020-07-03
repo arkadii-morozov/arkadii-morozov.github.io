@@ -58,7 +58,7 @@ span{
 }
 /*==================Adaptiv=============*/
 /*1200px-1400px*/
-@media screen and (max-width: 1400px){
+@media screen and (max-width: 1450px){
 	.blog_container{
 		width: 1050px;
 	}
