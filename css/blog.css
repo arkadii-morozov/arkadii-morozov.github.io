@@ -52,7 +52,7 @@
 	height: 30px;
 }
 span{
-	background: url(pic/img-sprite.png) 0px 0px no-repeat;
+	background: url(../pic/img-sprite.png) 0px 0px no-repeat;
     width: 24px;
     height: 24px;
 }

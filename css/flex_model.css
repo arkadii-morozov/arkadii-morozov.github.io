@@ -87,7 +87,7 @@ p{
     	display: flex;
     	width: 100%;
     	height: calc(100vh - 100px);
-    	background: url(pic/new_background_page_1296_648.png) 100% 100% no-repeat;
+    	background: url(../pic/new_background_page_1296_648.png) 100% 100% no-repeat;
     	background-size: cover;
 }
 	.welcome  {
@@ -188,7 +188,7 @@ p{
   	30px 80px;
 }
 .email-block{
-	background: url(pic/email.png) 80px top no-repeat;
+	background: url(../pic/email.png) 80px top no-repeat;
 	height: 48px;
 	padding-left: 150px;
 	margin-bottom: 30px;
@@ -203,7 +203,7 @@ p{
 	font-size: 16px;
 }
 .tel-block {
-	background: url(pic/tel_48.png) 80px top no-repeat;
+	background: url(../pic/tel_48.png) 80px top no-repeat;
 	height: 48px;
 	padding-left: 150px;	
 	margin-bottom: 30px;
