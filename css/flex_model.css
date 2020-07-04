@@ -53,6 +53,11 @@ p{
 	justify-content: space-between;
 }
 .drop-nav, #test{
+	width: 100%;
+	left: 0px;
+	background: rgb(40, 40, 40);
+	padding-bottom: 10px;
+	border-bottom: 1px solid silver;
 	display: none;
 	z-index:1000;
 	-webkit-user-select: none;
@@ -399,13 +404,13 @@ footer{
 	flex-direction: column;
 	flex-wrap: nowrap; 
 	justify-content: space-between;
-	top: 60px;
+	top: 50px;
 }
 .nav li, .drop-nav li{
 	display: block;
 	height: 20px;
-	width: 100px;
-	margin: 0px auto 10px auto;
+	width: -webkit-fill-available;
+	margin: 7px 50px;
 }
 .nav a, .drop-nav a{
 	font-size: 20px;
