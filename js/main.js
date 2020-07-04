@@ -10,7 +10,18 @@ function init(){
             $('.drop-nav').slideUp(100);
         }
     });
-    
+
+    $(document).on('click', function(e){
+        let target = e.target;
+        if (target.className != "drop-nav" &&
+            target.parentElement.className != "drop-nav" &&
+            target.className != "menu__item" &&
+            count ){
+            count = !count;
+            $('.drop-nav').slideUp(100);
+        }
+    });
+
     $(window).resize(function() {
         var widthDisp = $(window).width()+16;
         if ( widthDisp >= 768 ){
