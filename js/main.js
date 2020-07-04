@@ -10,7 +10,7 @@ function init(){
             $('.drop-nav').slideUp(100);
         }
     });
-
+    //
     $(document).on('click', function(e){
         let target = e.target;
         if (target.className != "menu__btn" &&
