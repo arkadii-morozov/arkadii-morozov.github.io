@@ -13,7 +13,9 @@ function init(){
     //
     $(document).on('click', function(e){
         let target = e.target;
+        console.log(target);
         if (target.className != "menu__btn" &&
+            target.parentElement.className != "menu__btn" &&
             target.className != "drop-nav" &&
             target.parentElement.className != "drop-nav" &&
             target.className != "menu__item" &&
