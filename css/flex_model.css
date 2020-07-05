@@ -87,12 +87,12 @@ p{
 	background: url(pic/new_background_page_1296_648.png) fixed no-repeat; */
 	/* background-size: 300% auto; = width*/
 	
-	flex-direction: column;
+		flex-direction: column;
     	justify-content: center;
     	display: flex;
     	width: 100%;
-    	height: calc(100vh - 100px);
-    	background: url(../pic/new_background_page_1296_648.png) 100% 100% no-repeat;
+    	height: calc(100vh - 70px);
+    	background: url(../pic/new_background_page_1296_648.png) center center no-repeat;
     	background-size: cover;
 }
 	.welcome  {
@@ -306,9 +306,9 @@ footer{
 		font-size: 20px;
 	}
 	/*=============home-page==================*/
-	.welcome_background{
+	/*.welcome_background{
     		height: calc(100vh - 70px);
-	}
+	}*/
 	.welcome p {
     		font-size: 18px;
 	}
