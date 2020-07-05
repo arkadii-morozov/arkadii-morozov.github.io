@@ -222,7 +222,7 @@ p{
 }
 /*==============Footer=============*/
 footer{
-	height: 50px;
+    height: max-content;
 	background: #282828;
 	text-align: center;
 	line-height: 50px;
