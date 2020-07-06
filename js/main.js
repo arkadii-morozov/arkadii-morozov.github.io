@@ -13,11 +13,21 @@ function init(){
     //
     $(document).on('click', function(e){
         let target = e.target;
-        console.log(target);
+        let parentEl = target.parentElement.className;
+        let gamburger = false;
+        let dropNav = false;
+        if (parentEl && parentEl=="menu__item"){
+            gamburger = true;
+        }
+        if (parentEl && parentEl=="drop-nav") {
+            dropNav = true;
+        }
+            
+//         console.log(target);
         if (target.className != "menu__btn" &&
-            target.parentElement.className != "menu__btn" &&
+            gamburger == false &&
             target.className != "drop-nav" &&
-            target.parentElement.className != "drop-nav" &&
+            dropNav == false &&
             target.className != "menu__item" &&
             count ){
             count = !count;
