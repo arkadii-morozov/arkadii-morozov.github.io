@@ -96,10 +96,12 @@ p{
     	background-size: cover;
 }
 	.welcome  {
-		/* transform: scale(3); */
-/*     		margin-top: px; */
-		text-align: center;
-		min-height: 200px;
+		z-index: 3;
+    		position: fixed;
+    		left: 50%;	
+    		top: 430px;
+    		width: 700px;
+      		margin-left: -350px;
 	}
 	.welcome p{
 		color:white;
