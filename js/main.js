@@ -105,5 +105,12 @@ function init(){
             owl.trigger("stop.owl.autoplay");
             owl.trigger("play.owl.autoplay");
         });
+        $(".owl-item").on("touchstart mousedown", function(e) {
+            // Prevent carousel swipe
+            //e.stopPropagation();
+            console.log("свайп");
+            owl.trigger("stop.owl.autoplay");
+            owl.trigger("play.owl.autoplay");
+        })
     });
 };
