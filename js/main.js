@@ -53,7 +53,7 @@ function init(){
     function parallaxScroll(){
         var scrolled = $(window).scrollTop();
         // console.log(scrolled);
-        $('#parallax-bg3').css('top',(430-(scrolled*.15))+'px');
+        $('welcome').css('top',(430-(scrolled*.15))+'px');
     }
     
     /**
