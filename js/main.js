@@ -77,7 +77,7 @@ function init(){
             autoplayTimeout:6000,
             dots : true,
             nav:true,
-            mouseDrag: true,
+            MouseDrag: true,
             touchDrag: true,
             navText: [
                 "<span class='fa fa-angle-left fa-5x'></span>",
@@ -107,7 +107,7 @@ function init(){
             owl.trigger("stop.owl.autoplay");
             owl.trigger("play.owl.autoplay");
         });
-        $(".owl-item").on("touchstart mousedown", function(e) {
+        $(".owl-nav").on("touchstart mousedown", function(e) {
             // Prevent carousel swipe
             //e.stopPropagation();
             console.log("свайп");
