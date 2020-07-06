@@ -38,9 +38,9 @@
 .tools-title{
 	text-align: center;
 }
-body .tools .tools-items .owl-carousel{
+/* body .tools .tools-items .owl-carousel{
     width: 100%;
-}
+} */
 .tools-items{
 	height: 200px;
 	width: 100%;
@@ -147,12 +147,12 @@ body .tools .tools-items .owl-carousel{
 	.tools-items > .item{
 		width: 250px;
 	}
-	.tools .owl-theme .owl-nav .owl-next {
+/* 	.tools .owl-theme .owl-nav .owl-next {
 		margin-right: 20px
 	}
 	.tools .owl-theme .owl-nav .owl-prev {
 		margin-left: 20px;
-	}
+	} */
 }
 /*=====576px-768px========*/
 @media screen and (max-width: 768px) {
