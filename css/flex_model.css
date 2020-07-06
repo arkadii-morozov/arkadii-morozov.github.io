@@ -536,8 +536,11 @@ footer{
 }
 /*==================-576px========================*/
 @media screen and (max-width: 576px) {
+	footer{
+		background: red;
+	}
 	/*==========welcome===========*/
-	.welcome_background .welcome {
+	.welcome_background > .welcome {
 		width: 350px;
     		margin-left: -175px;
 	}
