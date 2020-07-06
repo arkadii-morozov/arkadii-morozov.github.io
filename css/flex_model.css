@@ -52,7 +52,7 @@ p{
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
-.drop-nav, #test{
+.drop-nav{
 	width: 100%;
 	left: 0px;
 	background: rgb(40, 40, 40);
@@ -87,7 +87,7 @@ p{
 	background: url(pic/new_background_page_1296_648.png) fixed no-repeat; */
 	/* background-size: 300% auto; = width*/
 	
-		flex-direction: column;
+	flex-direction: column;
     	justify-content: center;
     	display: flex;
     	width: 100%;
@@ -95,23 +95,23 @@ p{
     	background: url(../pic/new_background_page_1296_648.png) center center no-repeat;
     	background-size: cover;
 }
-	.welcome  {
-		z-index: 3;
-    		position: fixed;
-    		left: 50%;	
-    		top: 430px;
-    		width: 700px;
-      		margin-left: -350px;
-		text-align: center;
-	}
-	.welcome p{
-		color:white;
-		font-size: 20px;
-		margin-top: 10px;
-	}
-	.welcome h1{
-		color:white;
-	}
+.welcome  {
+	z-index: 3;
+	position: fixed;
+	left: 50%;	
+	top: 430px;
+    	width: 700px;
+      	margin-left: -350px;
+	text-align: center;
+}
+.welcome p{
+	color:white;
+	font-size: 20px;
+	margin-top: 10px;
+}
+.welcome h1{
+	color:white;
+}
 
 /*===============Portfolio============ */
 .portfolio{
@@ -239,11 +239,11 @@ p{
 }
 /*==============Footer=============*/
 footer{
-    height: max-content;
+    	height: max-content;
 	background: #282828;
 	text-align: center;
 	color: #fff;
-    padding: 20px 0px;
+    	padding: 20px 0px;
 }
 .scrollup{
 /* 	color: rgba(33,33,33, 0.4);
@@ -319,8 +319,7 @@ footer{
 		width: 400px;
 	}
 	.contacts>h3{
-  	padding: 20px 0px
-  	30px 80px;
+  		padding: 20px 0px 30px 80px;
 	}
 }
 @media screen and (max-width: 1010px){
@@ -374,8 +373,8 @@ footer{
 		width: 350px;
 	}
 	.input{
-    	margin: 5px auto 10px auto;
-    	padding: 5px 10px;
+    		margin: 5px auto 10px auto;
+    		padding: 5px 10px;
 		width: 300px;
 	}
 	/*===========Connect->contacts============*/
@@ -493,6 +492,7 @@ footer{
 	padding: 0px 0px 100px 0px;
 	margin: 0px auto;
 }
+	
 /* .syte{
 	width: 350px;
 	height: 350px;
@@ -504,8 +504,9 @@ footer{
 }
 .syte>a>img{
 	width: 100%;
-	height: 100%; */
-}
+	height: 100%; 
+} */
+	
 /*============Contacts=============*/ 
 /* .connect{
 	padding: 100px 0px 50px 0px;
@@ -536,9 +537,6 @@ footer{
 }
 /*==================-576px========================*/
 @media screen and (max-width: 576px) {
-	footer{
-		background: red;
-	}
 	/*==========welcome===========*/
 	.welcome_background > .welcome {
 		width: 350px;
