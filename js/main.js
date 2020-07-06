@@ -77,6 +77,8 @@ function init(){
             autoplayTimeout:6000,
             dots : true,
             nav:true,
+            mouseDrag: true,
+            touchDrag: true,
             navText: [
                 "<span class='fa fa-angle-left fa-5x'></span>",
                 "<span class='fa fa-angle-right fa-5x'></span>"
