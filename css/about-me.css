@@ -119,6 +119,12 @@ body .tools .tools-items .owl-carousel{
 .tools-items {
     width: 992px;
 }
+.tools .owl-theme .owl-nav .owl-prev{
+	margin-left: 0px;
+}
+.tools .owl-theme .owl-nav .owl-next{
+	margin-right: 0px;
+}
 }
 /*=====768px-992px=======*/
 @media screen and (max-width: 992px){
