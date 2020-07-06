@@ -16,11 +16,15 @@ function init(){
         let parentEl = target.parentElement.className;
         let gamburger = false;
         let dropNav = false;
-        if (parentEl && parentEl=="menu__item"){
+        if (parentEl && parentEl=="menu__btn"){
             gamburger = true;
+            console.log(parentEl);
+            console.log(gamburger);
         }
         if (parentEl && parentEl=="drop-nav") {
             dropNav = true;
+            console.log(parentEl);
+            console.log(dropNav);
         }
             
 //         console.log(target);
