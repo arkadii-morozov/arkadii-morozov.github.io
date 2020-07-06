@@ -435,7 +435,8 @@ footer{
 		height: calc(100vh - 50px);
 	}
 	.welcome  {
-        	min-height: 130px;
+		width: 576px;
+    		margin-left: -288px;
 	}
 /*===============Portfolio============ */
 .portfolio{
@@ -485,4 +486,12 @@ footer{
 .contacts>h3 {
     padding: 50px 0px 30px 80px;
 }
+}
+/*=====-576px========*/
+@media screen and (max-width: 576px) {
+	/*==========welcome===========*/
+	.welcome  {
+		width: 350px;
+    		margin-left: -175px;
+	}
 }
