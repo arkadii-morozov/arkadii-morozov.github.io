@@ -253,7 +253,7 @@ footer{
     	border-radius: 40px;
 }
 .scrollup:hover{
-	background: rgba(33,33,33, 0.7);
+	background: rgba(33,33,33, 0.4);
 	color: white;
 }
 .scrollup .fa-3x{
@@ -261,8 +261,13 @@ footer{
 	margin-left: 10px;
 	width:32px
 }
-.scrollup .fa-5x{
+.scrollup .fa-4x{
 	display: inline-block;
+	font-size: 4em;
+    	width: 42px;
+    	max-height: 42px;
+    	margin-left: 5px;
+    	margin-top: -8px;
 }
 
 /*==================Adaptiv=============*/
@@ -511,7 +516,7 @@ footer{
 .scrollup .fa-3x{
 	display: inline-block;
 }
-.scrollup .fa-5x{
+.scrollup .fa-4x{
 	display: none;
 }
 }
