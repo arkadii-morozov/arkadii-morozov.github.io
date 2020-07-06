@@ -92,6 +92,11 @@ function init(){
 //                     items:5
 //                 }
 //             }
+         });
+        $(".owl-dot").click(function(){
+            console.log("push");
+            owl.trigger("stop.owl.autoplay");
+            owl.trigger("play.owl.autoplay");
         });
     });
 };
