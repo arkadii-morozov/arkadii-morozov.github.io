@@ -38,9 +38,12 @@
 .tools-title{
 	text-align: center;
 }
+body .tools .tools-items .owl-carousel{
+    width: 100%;
+}
 .tools-items{
 	height: 200px;
-	width: 1000px;
+	width: 100%;
 	margin: 0px auto;
 	display: flex;
 	flex-flow: nowrap row;
@@ -70,6 +73,7 @@
     	height: 100%;
     	width: 40%;
     	text-align: left;
+	margin-left: 40px;
 	color: rgba(33,33,33, 0.4);
 	background: transparent;
 }
@@ -79,6 +83,7 @@
     	height: 100%;
     	width: 40%;
     	text-align: right;
+	margin-right: 40px;
 	color: rgba(33,33,33, 0.4);
 	background: transparent;
 }
@@ -130,12 +135,18 @@
 	width: 500px;
 }
 /*===========tools=====================*/
-.tools-items {
-    width: 768px;
-}
-.tools-items > .item{
-	width: 250px;
-}
+	.tools-items {
+    		width: 768px;
+	}
+	.tools-items > .item{
+		width: 250px;
+	}
+	.tools .owl-theme .owl-nav .owl-next {
+		margin-right: 20px
+	}
+	.tools .owl-theme .owl-nav .owl-prev {
+		margin-left: 20px;
+	}
 }
 /*=====576px-768px========*/
 @media screen and (max-width: 768px) {
