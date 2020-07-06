@@ -75,7 +75,7 @@ function init(){
             items:1,
             autoplay:true,
             autoplayTimeout:6000,
-            dots : false,
+            dots : true,
             nav:true,
             navText: [
                 "<span class='fa fa-angle-left fa-5x'></span>",
