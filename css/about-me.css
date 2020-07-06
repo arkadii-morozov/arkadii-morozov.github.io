@@ -117,7 +117,7 @@ body .tools .tools-items .owl-carousel{
 }
 /*===========tools=====================*/
 .tools-items {
-/*     width: 992px; */
+    width: 992px;
 }
 }
 /*=====768px-992px=======*/
@@ -136,7 +136,7 @@ body .tools .tools-items .owl-carousel{
 }
 /*===========tools=====================*/
 	.tools-items {
-/*     		width: 768px; */
+    		width: 768px;
 	}
 	.tools-items > .item{
 		width: 250px;
@@ -173,7 +173,7 @@ body .tools .tools-items .owl-carousel{
 /*==========tools===========*/
 .tools-items{
 	flex-direction: column;
-/* 	width: 576px; */
+	width: 576px;
 }
 .tools-items > item{
 	width: 250px;
@@ -198,6 +198,6 @@ body .tools .tools-items .owl-carousel{
 }
 .tools-items {
     flex-direction: column;
-/*     width: 350px; */
+    width: 350px;
 }
 }
