@@ -45,6 +45,17 @@ function init(){
         $("html, body").animate({ scrollTop: 0 }, 600);
         return false;
     });
+    
+    // parallax
+    $(window).bind('scroll',function(e){
+        parallaxScroll();
+    });
+    function parallaxScroll(){
+        var scrolled = $(window).scrollTop();
+        // console.log(scrolled);
+        $('#parallax-bg3').css('top',(430-(scrolled*.15))+'px');
+    }
+    
     /**
     * Owl Carousel
     */
