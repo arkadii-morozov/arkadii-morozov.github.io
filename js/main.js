@@ -94,7 +94,14 @@ function init(){
 //             }
          });
         $(".owl-dot").click(function(){
-            console.log("push");
+            owl.trigger("stop.owl.autoplay");
+            owl.trigger("play.owl.autoplay");
+        });
+        $(".owl-next").click(function(){
+            owl.trigger("stop.owl.autoplay");
+            owl.trigger("play.owl.autoplay");
+        });
+        $(".owl-prev").click(function(){
             owl.trigger("stop.owl.autoplay");
             owl.trigger("play.owl.autoplay");
         });
