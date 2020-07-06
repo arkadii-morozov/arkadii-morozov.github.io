@@ -43,7 +43,7 @@
 } */
 .tools-items{
 	height: 200px;
-	width: 100%;
+	width: calc(100vw - 50px);
 	margin: 0px auto;
 	display: flex;
 	flex-flow: nowrap row;
@@ -73,7 +73,7 @@
     	height: 100%;
     	width: 40%;
     	text-align: left;
-	margin-left: 40px;
+/* 	margin-left: 40px; */
 	color: rgba(33,33,33, 0.4);
 	background: transparent;
 }
@@ -83,7 +83,7 @@
     	height: 100%;
     	width: 40%;
     	text-align: right;
-	margin-right: 40px;
+/* 	margin-right: 40px; */
 	color: rgba(33,33,33, 0.4);
 	background: transparent;
 }
@@ -102,7 +102,7 @@
 }
 /*==================Adaptiv=============*/
 /*992px-1200px*/
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1220px){
 /*=============aboutMe==================*/
 .aboutMe_container{
 	width: 992px;
@@ -117,7 +117,7 @@
 }
 /*===========tools=====================*/
 .tools-items {
-    width: 992px;
+/*     width: 992px; */
 }
 .tools .owl-theme .owl-nav .owl-prev{
 	margin-left: 0px;
@@ -142,7 +142,7 @@
 }
 /*===========tools=====================*/
 	.tools-items {
-    		width: 768px;
+/*     		width: 768px; */
 	}
 	.tools-items > .item{
 		width: 250px;
@@ -179,7 +179,7 @@
 /*==========tools===========*/
 .tools-items{
 	flex-direction: column;
-	width: 576px;
+/* 	width: 576px; */
 }
 .tools-items > item{
 	width: 250px;
@@ -204,6 +204,6 @@
 }
 .tools-items {
     flex-direction: column;
-    width: 350px;
+/*     width: 350px; */
 }
 }
