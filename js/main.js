@@ -18,21 +18,15 @@ function init(){
         let dropNav = false;
         if (parentEl && parentEl=="menu__btn"){
             gamburger = true;
-            console.log(parentEl);
-            console.log(gamburger);
         }
         if (parentEl && parentEl=="drop-nav") {
             dropNav = true;
-            console.log(parentEl);
-            console.log(dropNav);
         }
             
-//         console.log(target);
         if (target.className != "menu__btn" &&
             gamburger == false &&
             target.className != "drop-nav" &&
             dropNav == false &&
-            target.className != "menu__item" &&
             count ){
             count = !count;
             $('.drop-nav').slideUp(100);
