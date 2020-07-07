@@ -79,10 +79,11 @@ function init(){
             nav:true,
             MouseDrag: true,
             touchDrag: true,
-            navText: [
-                "<span class='fa fa-angle-left fa-5x'></span>",
-                "<span class='fa fa-angle-right fa-5x'></span>"
-                            ]
+            navContainer: [$(".nav-panel")]
+//             navText: [
+//                 "<span class='fa fa-angle-left fa-5x'></span>",
+//                 "<span class='fa fa-angle-right fa-5x'></span>"
+//                             ]
 //             responsive:{
 //                 0:{
 //                     items:1
