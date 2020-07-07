@@ -102,16 +102,16 @@ function init(){
         // Go to the next item
         $('.owl-button-prev').click(function() {
             owl.trigger("stop.owl.autoplay");
-            owl.trigger('prev.owl.carousel');
             owl.trigger("play.owl.autoplay");
+            owl.trigger('prev.owl.carousel');
         })
         // Go to the previous item
         $('.owl-button-next').click(function() {
             // With optional speed parameter
             // Parameters has to be in square bracket '[]'
             owl.trigger("stop.owl.autoplay");
-            owl.trigger('next.owl.carousel', [300]);
             owl.trigger("play.owl.autoplay");
+            owl.trigger('next.owl.carousel');
         })
         
 //         $(".owl-next").click(function(){
