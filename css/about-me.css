@@ -76,6 +76,19 @@ body .tools .tools-items .owl-dots{
     width: 100%;
     height: 100%;
 }
+.tools .nav-panel .owl-button-prev, .tools .nav-panel .owl-button-next{
+    position: absolute;
+    display: block;
+    background: aqua;
+    height: 40px;
+    width: 40px;
+}
+.owl-button-next{
+	right: 0px;
+}
+.owl-button-prev{
+	left: 0px;
+}
 .tools .owl-theme .owl-nav .owl-prev{
 	position: absolute;
     	left: 0px;
