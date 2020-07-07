@@ -107,7 +107,7 @@ function init(){
             owl.trigger("stop.owl.autoplay");
             owl.trigger("play.owl.autoplay");
         });
-        $(".owl-nav").on("touchstart mousedown", function(e) {
+        $(".owl-carousel.owl-drag .owl-item").on("touchstart mousedown", function(e) {
             // Prevent carousel swipe
             //e.stopPropagation();
             console.log("свайп");
