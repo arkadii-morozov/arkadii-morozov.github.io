@@ -133,7 +133,7 @@ function init(){
     });//<- end owl function
     
     //show tools arrows
-    $('.owl-stage-outer').on('mouseover', function(){
+    $('.owl-item').on('mouseover', function(){
         let dots = $(".owl-dots").css("display");
         if ( dots != "block" ){
             console.log("показать стрелки");
