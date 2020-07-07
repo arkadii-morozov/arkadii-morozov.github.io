@@ -114,19 +114,9 @@ function init(){
             owl.trigger("play.owl.autoplay");
             owl.trigger('next.owl.carousel');
         })
-        
-//         $(".owl-next").click(function(){
-//             owl.trigger("stop.owl.autoplay");
-//             owl.trigger("play.owl.autoplay");
-// //         });
-//         $(".owl-prev").click(function(){
-//             owl.trigger("stop.owl.autoplay");
-//             owl.trigger("play.owl.autoplay");
-//         });
         $(".owl-carousel.owl-drag .owl-item").on("touchstart mousedown", function(e) {
             // Prevent carousel swipe
             //e.stopPropagation();
-            console.log("свайп");
             owl.trigger("stop.owl.autoplay");
             owl.trigger("play.owl.autoplay");
         })
