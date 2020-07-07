@@ -83,6 +83,7 @@ body .tools .tools-items .owl-dots{
     	width: 200px;
     	color: rgba(33,33,33, 0.3);;
 	top: -200px;
+	z-index: 1000;
 }
 .owl-button-next{
 	right: 0px;
