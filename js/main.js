@@ -133,13 +133,15 @@ function init(){
     });//<- end owl function
     
     //show tools arrows
-    $(document).on('mouseover', function(event) {
-        let dots = $(".owl-dots").css("display");
-        console.log(dots);
+        $('.tools').mouseover(function(){
+            alert('Вы поместили курсор в зону элемента tools.');
+        });
+//         let dots = $(".owl-dots").css("display");
+//         console.log(dots);
 //         if ( dots == "none" ){
 //             console.log("показать стрелки");
 //             $(".owl-button-prev").show("slide", { direction: "left" }, 1000);
 //             $(".owl-button-next").show("slide", { direction: "right" }, 1000);
 //         }
-    });
+    //});
 };
