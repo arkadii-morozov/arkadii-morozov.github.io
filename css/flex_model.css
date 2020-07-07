@@ -45,14 +45,14 @@ p{
 .name-menu{
 	display: none;
 }
-.nav, .drop-nav, #test{
+header .navigation .nav{
 	list-style-type: none;
 	display:flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
-.drop-nav{
+header .navigation .drop-nav{
 	width: 100%;
 	left: 0px;
 	background: rgb(40, 40, 40);
