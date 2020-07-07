@@ -474,6 +474,7 @@ footer{
 		height: calc(100vh - 50px);
 	}
 	.welcome  {
+		top: 410px;
 		width: 576px;
     		margin-left: -288px;
 	}
@@ -539,6 +540,7 @@ footer{
 @media screen and (max-width: 576px) {
 	/*==========welcome===========*/
 	.welcome_background > .welcome {
+		top: 390px;
 		width: 350px;
     		margin-left: -175px;
 	}
