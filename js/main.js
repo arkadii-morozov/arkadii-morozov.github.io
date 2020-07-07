@@ -110,7 +110,7 @@ function init(){
             // With optional speed parameter
             // Parameters has to be in square bracket '[]'
             owl.trigger("stop.owl.autoplay");
-            owl.trigger('prev.owl.carousel', [300]);
+            owl.trigger('next.owl.carousel', [300]);
             owl.trigger("play.owl.autoplay");
         })
         
