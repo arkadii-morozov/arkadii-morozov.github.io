@@ -70,7 +70,7 @@ body .tools .tools-items .owl-dots{
     	width: 100%;
 }
 .tools .owl-theme .owl-nav {
-    position: absolute;
+/*     position: absolute; */
     margin: 0px;
     top: 0px;
     width: 100%;
