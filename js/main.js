@@ -135,10 +135,11 @@ function init(){
     //show tools arrows
     $('.tools').on('mouseover', function(){
         let dots = $(".owl-dots").css("display");
-        if ( dots == "none" ){
-            console.log("показать стрелки");
-            $(".owl-button-prev").show("slide", { direction: "left" }, 1000);
-            $(".owl-button-next").show("slide", { direction: "right" }, 1000);
-        }
+        console.log(dots);
+//         if ( dots == "none" ){
+//             console.log("показать стрелки");
+//             $(".owl-button-prev").show("slide", { direction: "left" }, 1000);
+//             $(".owl-button-next").show("slide", { direction: "right" }, 1000);
+//         }
     });
 };
