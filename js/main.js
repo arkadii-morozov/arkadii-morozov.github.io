@@ -76,7 +76,7 @@ function init(){
             autoplay:true,
             autoplayTimeout:6000,
             dots : true,
-            nav:true,
+            nav:false,
             MouseDrag: true,
             touchDrag: true,
             navContainer: [$(".nav-panel")]
