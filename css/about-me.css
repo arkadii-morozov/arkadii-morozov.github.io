@@ -80,20 +80,25 @@ body .tools .tools-items .owl-dots{
 	position: relative;
 }
 .tools .nav-panel .owl-button-prev, .tools .nav-panel .owl-button-next{
-    position: absolute;
-    display: block;
-    /* background: aqua; */
-    height: 200px;
-    width: 200px;
-    /* line-height: 200px; */
-    color: black;
-    opacity: 0.3;
+    	position: absolute;
+    	display: block;
+    	/* background: aqua; */
+    	height: 200px;
+    	width: 200px;
+    	/* line-height: 200px; */
+    	color: black;
+    	opacity: 0.3;
+	top: -200px;
 }
 .owl-button-next{
 	right: 0px;
 }
 .owl-button-prev{
 	left: 0px;
+}
+.tools .nav-panel .owl-button-prev:hover, .tools .nav-panel .owl-button-next:hover{
+	color: white;
+	background: rgba(33,33,33, 0.4);
 }
 .tools .nav-panel  .fa-5x{
     	font-size: 5em;
