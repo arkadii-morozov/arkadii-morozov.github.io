@@ -99,14 +99,29 @@ function init(){
             owl.trigger("stop.owl.autoplay");
             owl.trigger("play.owl.autoplay");
         });
-        $(".owl-next").click(function(){
+        // Go to the next item
+        $('.owl-button-prev').click(function() {
             owl.trigger("stop.owl.autoplay");
+            owl.trigger('prev.owl.carousel');
             owl.trigger("play.owl.autoplay");
-        });
-        $(".owl-prev").click(function(){
+        })
+        // Go to the previous item
+        $('.owl-button-next').click(function() {
+            // With optional speed parameter
+            // Parameters has to be in square bracket '[]'
             owl.trigger("stop.owl.autoplay");
+            owl.trigger('prev.owl.carousel', [300]);
             owl.trigger("play.owl.autoplay");
-        });
+        })
+        
+//         $(".owl-next").click(function(){
+//             owl.trigger("stop.owl.autoplay");
+//             owl.trigger("play.owl.autoplay");
+// //         });
+//         $(".owl-prev").click(function(){
+//             owl.trigger("stop.owl.autoplay");
+//             owl.trigger("play.owl.autoplay");
+//         });
         $(".owl-carousel.owl-drag .owl-item").on("touchstart", function(e) {
             // Prevent carousel swipe
             //e.stopPropagation();
