@@ -130,5 +130,11 @@ function init(){
             owl.trigger("stop.owl.autoplay");
             owl.trigger("play.owl.autoplay");
         })
+    });//<- end owl function
+    
+    //show tools arrows
+    $('.tools').on('mouseover', function(){
+        $(".owl-button-prev").show("slide", { direction: "left" }, 1000);
+        $(".owl-button-next").show("slide", { direction: "right" }, 1000);
     });
 };
