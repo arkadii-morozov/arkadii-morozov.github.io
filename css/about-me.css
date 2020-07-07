@@ -89,6 +89,9 @@ body .tools .tools-items .owl-dots{
 .owl-button-prev{
 	left: 0px;
 }
+.owl-prev, .owl-next{
+	display: none;
+}
 /* .tools .owl-theme .owl-nav .owl-prev{
 	position: absolute;
     	left: 0px;
