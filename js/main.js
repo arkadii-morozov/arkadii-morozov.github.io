@@ -131,14 +131,4 @@ function init(){
             owl.trigger("play.owl.autoplay");
         })
     });//<- end owl function
-    
-    //show tools arrows
-    $('.owl-item').on('mouseover', function(){
-        let dots = $(".owl-dots").css("display");
-        if ( dots != "block" ){
-            console.log("показать стрелки");
-//             $(".owl-button-prev").show("slide", { direction: "left" }, 1000);
-//             $(".owl-button-next").show("slide", { direction: "right" }, 1000);
-        }
-    });
 };
