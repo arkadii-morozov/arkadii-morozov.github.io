@@ -81,7 +81,7 @@ body .tools .tools-items .owl-dots{
 }
 .tools .nav-panel .owl-button-prev, .tools .nav-panel .owl-button-next{
     position: absolute;
-    display: none;
+    display: block;
     /* background: aqua; */
     height: 200px;
     width: 200px;
