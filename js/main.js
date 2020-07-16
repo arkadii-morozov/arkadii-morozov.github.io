@@ -60,7 +60,7 @@ function init(){
     });
     function parallaxScroll(){
         var scrolled = $(window).scrollTop();
-        var height = Number($(".welcome").css("top"));
+        var height = $(".welcome").css("top");
         console.log(scrolled+' '+height);
         if (height){
             console.log('height true'+scrolled+' '+height);
