@@ -65,7 +65,7 @@ function init(){
         if (height){        
             var top = height.substring(0, (height.length - 2));                
             console.log(top);            
-            $('.welcome').css('top',(top-(scrolled*1.55))+'px');
+            $('.welcome').css('top',(top-(scrolled*2))+'px');
         }        
     }
     
