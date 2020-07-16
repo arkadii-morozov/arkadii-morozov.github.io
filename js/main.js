@@ -60,15 +60,12 @@ function init(){
     });
     function parallaxScroll(){
         var scrolled = $(window).scrollTop();
-        var height = $(".welcome").css("top");
-        var numHeight = height.substring(height.indexOf('p'), -1);
-        console.log('top = '+numHeight);
-        //console.log('top = '+height.substring(numHeight, -1));
-//         console.log(scrolled+' '+height);
-//         if (height){
-//             console.log('height true'+scrolled+' '+height);
-//             $('.welcome').css('top',(height-(scrolled*1.35))+'px');
-//         }        
+        var height = $(".welcome").css("top");        
+        var top = 0;
+        if (height){            
+            top = height.substring(height.indexOf('p'), -1);                
+            $('.welcome').css('top',(top-(scrolled*1.35))+'px');
+        }        
     }
     
     /**
