@@ -60,12 +60,11 @@ function init(){
     });
     function parallaxScroll(){
         var scrolled = $(window).scrollTop();
-        var height = $(".welcome").css("top");        
-        var top = 0;
+        var height = $(".welcome").css("top");                
         if (height){        
-            top = height.substring(0, height.length - 5);                
-            console.log(top);
-            $('.welcome').css('top',(430-(scrolled*1.25))+'px');
+            var top = height.substring(0, (height.length - 5));                
+            console.log(height.length);
+            $('.welcome').css('top',(430-(scrolled*1.35))+'px');
         }        
     }
     
