@@ -1,6 +1,7 @@
 $(window).on( "load", init);
 
 function init(){
+    var height = $(".welcome").css("top");  // for paralax
     var count = false;
     $('.menu__btn').on('click', function(){
         count = !count;
@@ -35,6 +36,7 @@ function init(){
 
     $(window).resize(function() {
         var widthDisp = $(window).width()+16;
+        height = $(".welcome").css("top")
         if ( widthDisp >= 768 ){
              $('.drop-nav').slideUp(20);
              count = false;
@@ -54,16 +56,15 @@ function init(){
         return false;
     });
     
-    // parallax
+    // parallax    
     $(window).bind('scroll',function(e){
         parallaxScroll();
     });
     function parallaxScroll(){
-        var scrolled = $(window).scrollTop();
-        var height = $(".welcome").css("top");   
+        var scrolled = $(window).scrollTop();        
         if (height){        
             var top = height.substring(0, (height.length - 2));                
-            console.log(height.length+' '+top);            
+            console.log(top);            
             $('.welcome').css('top',(top-(scrolled*1.15))+'px');
         }        
     }
