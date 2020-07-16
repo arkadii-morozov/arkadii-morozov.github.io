@@ -62,8 +62,8 @@ function init(){
         var scrolled = $(window).scrollTop();
         var height = $(".welcome").css("top");        
         var top = 0;
-        if (height){            
-            top = height.substring(height.indexOf('p'), -1);                
+        if (height){        
+            top = height.substring(0, height.length - 5);                
             console.log(top+" "+scrolled);
             $('.welcome').css('top',(top-(scrolled*1.25))+'px');
         }        
