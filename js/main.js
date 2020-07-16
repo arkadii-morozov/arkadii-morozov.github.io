@@ -62,8 +62,9 @@ function init(){
         var scrolled = $(window).scrollTop();
         var height = $(".welcome").css("top");                
         if (height){        
-            var top = height.substring(0, (height.length - 5));                
+            var top = height.substring(0, (height.length - 2));                
             console.log(height.length);
+            console.log(top);
             $('.welcome').css('top',(430-(scrolled*1.35))+'px');
         }        
     }
