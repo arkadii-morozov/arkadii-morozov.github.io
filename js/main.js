@@ -61,12 +61,13 @@ function init(){
     function parallaxScroll(){
         var scrolled = $(window).scrollTop();
         var height = $(".welcome").css("top");
-        console.log(scrolled+' '+height);
-        if (height){
-            console.log('height true'+scrolled+' '+height);
-            $('.welcome').css('top',(height-(scrolled*1.35))+'px');
-        }
-        
+        var numHeight = height.indexOf('p');
+        console.log('top = '+height.substring(numHeight, -1));
+//         console.log(scrolled+' '+height);
+//         if (height){
+//             console.log('height true'+scrolled+' '+height);
+//             $('.welcome').css('top',(height-(scrolled*1.35))+'px');
+//         }        
     }
     
     /**
