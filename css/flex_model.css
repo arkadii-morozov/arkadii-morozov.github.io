@@ -45,14 +45,14 @@ p{
 .name-menu{
 	display: none;
 }
-.nav, .drop-nav, #test{
+.nav{
 	list-style-type: none;
 	display:flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
-.drop-nav, #test{
+.drop-nav{
 	width: 100%;
 	left: 0px;
 	background: rgb(40, 40, 40);
@@ -87,7 +87,7 @@ p{
 	background: url(pic/new_background_page_1296_648.png) fixed no-repeat; */
 	/* background-size: 300% auto; = width*/
 	
-		flex-direction: column;
+	flex-direction: column;
     	justify-content: center;
     	display: flex;
     	width: 100%;
@@ -95,20 +95,23 @@ p{
     	background: url(../pic/new_background_page_1296_648.png) center center no-repeat;
     	background-size: cover;
 }
-	.welcome  {
-		/* transform: scale(3); */
-/*     		margin-top: px; */
-		text-align: center;
-		min-height: 200px;
-	}
-	.welcome p{
-		color:white;
-		font-size: 20px;
-		margin-top: 10px;
-	}
-	.welcome h1{
-		color:white;
-	}
+.welcome  {
+	z-index: 3;
+	position: fixed;
+	left: 50%;	
+	top: 430px;
+    	width: 700px;
+      	margin-left: -350px;
+	text-align: center;
+}
+.welcome p{
+	color:white;
+	font-size: 20px;
+	margin-top: 10px;
+}
+.welcome h1{
+	color:white;
+}
 
 /*===============Portfolio============ */
 .portfolio{
@@ -134,18 +137,32 @@ p{
 	padding: 0px 0px 100px 0px;
 }
 .syte{
+	position: relative;
 	width: 350px;
 	height: 350px;
-	background: red;
+/* 	background: #ccc; */
 	box-shadow: 0px 0px 5px rgba(0,0,0, 0.3);
 }
 .syte:hover{
 	box-shadow: 0px 0px 5px 5px rgba(170,136,238, 0.9);	
 }
+.wrapper .syte > span{
+	background: transparent;
+    	position: absolute;
+    	font: 20px/20px bold sans-serif;
+    	top: 50%;
+    	left: 50%;
+    	width: 200px;
+    	margin-left: -100px;
+    	text-align: center;
+	z-index: 1000;
+}
 .syte>a>img{
 	width: 100%;
 	height: 100%;
+	opacity: 0.7;
 } 
+
 /*============Contacts=============*/ 
 .connect{
 	background: #F8F8F8;	
@@ -222,25 +239,51 @@ p{
 }
 /*==============Footer=============*/
 footer{
-    height: max-content;
+    	height: max-content;
 	background: #282828;
 	text-align: center;
 	color: #fff;
-    padding: 20px 0px;
+    	padding: 20px 0px;
 }
 .scrollup{
-	color: rgba(33,33,33, 0.4);
+/* 	color: rgba(33,33,33, 0.4);
     	z-index: 999;
     	width: max-content;
     	height: max-content;
     	position: fixed;
     	bottom: 60px;
     	right: 60px;
+    	display: none; */
+	
+	color: rgba(33,33,33, 0.4);
+    	z-index: 999;
+    	position: fixed;
+    	bottom: 60px;
+    	right: 60px;
     	display: none;
+    	width: 52px;
+    	height: 52px;
+/*       border: 1px solid silver; */
+    	border-radius: 40px;
 }
 .scrollup:hover{
-	color: rgba(33,33,33, 1);
+	background: rgba(33,33,33, 0.4);
+	color: white;
 }
+.scrollup .fa-3x{
+	display: none;
+	margin-left: 10px;
+	width:32px
+}
+.scrollup .fa-4x{
+	display: inline-block;
+	font-size: 4em;
+    	width: 42px;
+    	max-height: 42px;
+    	margin-left: 5px;
+    	margin-top: -8px;
+}
+
 /*==================Adaptiv=============*/
 /*992px-1200px*/
 @media screen and (max-width: 1200px){
@@ -276,8 +319,7 @@ footer{
 		width: 400px;
 	}
 	.contacts>h3{
-  	padding: 20px 0px
-  	30px 80px;
+  		padding: 20px 0px 30px 80px;
 	}
 }
 @media screen and (max-width: 1010px){
@@ -331,8 +373,8 @@ footer{
 		width: 350px;
 	}
 	.input{
-    	margin: 5px auto 10px auto;
-    	padding: 5px 10px;
+    		margin: 5px auto 10px auto;
+    		padding: 5px 10px;
 		width: 300px;
 	}
 	/*===========Connect->contacts============*/
@@ -432,7 +474,9 @@ footer{
 		height: calc(100vh - 50px);
 	}
 	.welcome  {
-        	min-height: 130px;
+		top: 410px;
+		width: 576px;
+    		margin-left: -288px;
 	}
 /*===============Portfolio============ */
 .portfolio{
@@ -449,7 +493,8 @@ footer{
 	padding: 0px 0px 100px 0px;
 	margin: 0px auto;
 }
-.syte{
+	
+/* .syte{
 	width: 350px;
 	height: 350px;
 	background: red;
@@ -460,8 +505,9 @@ footer{
 }
 .syte>a>img{
 	width: 100%;
-	height: 100%;
-}
+	height: 100%; 
+} */
+	
 /*============Contacts=============*/ 
 /* .connect{
 	padding: 100px 0px 50px 0px;
@@ -482,4 +528,20 @@ footer{
 .contacts>h3 {
     padding: 50px 0px 30px 80px;
 }
+/*================== scrollup==========*/
+.scrollup .fa-3x{
+	display: inline-block;
+}
+.scrollup .fa-4x{
+	display: none;
+}
+}
+/*==================-576px========================*/
+@media screen and (max-width: 576px) {
+	/*==========welcome===========*/
+	.welcome_background > .welcome {
+		top: 360px;
+		width: 350px;
+    		margin-left: -175px;
+	}
 }
