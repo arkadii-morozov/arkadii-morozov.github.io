@@ -23,8 +23,9 @@ function init() {
         var target = e.target.className;
         var targetString = target.substring(target.length - 3);
         if ( targetString == itemRandom && timeIsOver == false) {
+            $(this).attr('src', 'pic/pumpkin-active.jpg');
             resultBlock.fadeIn(150);
-            $('.is-winner').text('Ты выиграл!');
+            $('.is-winner').text('Вы выиграли!');
             //очищаем все интервалы
             var highestTimeoutId = setTimeout(";");
             for (var i = 0 ; i < highestTimeoutId ; i++) {
@@ -35,6 +36,9 @@ function init() {
     });
 
     $('.button-repeat').on('click', function (e) {
+        $('.item').each(function(){
+            $(this).attr('src', 'pic/pumpkin-no-active.jpg');
+        });
         itemRandom =  getRandomItem();
         $('.timer').text(10);
         resultBlock.fadeOut(150);        
@@ -52,7 +56,7 @@ function init() {
             clearInterval(timerid);
             timeIsOver = true;
             resultBlock.fadeIn(150);
-            $('.is-winner').text('Ты проиграл!');
+            $('.is-winner').text('Вы проиграли!');
         }, interval*1000);
     };
 }
