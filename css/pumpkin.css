@@ -62,14 +62,14 @@ header{
     display: none;
     position: absolute;
     top: 36%;
-    left: 35%;
+    left: 34%;
     font-size: 60px;
     line-height: 25px;
     font-weight: 600;
     font-family: sans-serif;
     color: #FFE4C4;
     text-align: center;
-    width: 30%;
+    width: 32%;
     background: #333333;
     padding: 35px;
 }
