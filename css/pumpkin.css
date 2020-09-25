@@ -58,3 +58,38 @@ header{
 .pump_items > .middle{
     width: 245px;
 }
+.pop-up-result {
+    display: none;
+    position: absolute;
+    top: 36%;
+    left: 35%;
+    font-size: 60px;
+    line-height: 25px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: #FFE4C4;
+    text-align: center;
+    width: 30%;
+    background: #333333;
+    padding: 35px;
+}
+.button-repeat {
+    display: block;
+    box-sizing: border-box;
+    font-size: 30px;
+    line-height: 22px;
+    font-weight: 400;
+    cursor: pointer;
+    background: #C35D0B;
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+    margin: 35px auto 0px;
+    border: 1px solid silver;
+}
+.button-repeat:hover{
+    background: #FFE4C4;
+    color: #C35D0B;
+    border: 0px solid silver;
+    line-height: 52px;
+}

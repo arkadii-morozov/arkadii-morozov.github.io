@@ -9,21 +9,25 @@ function init() {
 
     var randomNumber = randomInteger(1, 5);
     var targetItem = 'i-' + randomNumber;
+    var isWinner = false;
+    var resultBlock = $('.pop-up-result');
 
     $('.item').on('click', function (e) {
         var target = e.target.className;
         var targetString = target.substring(target.length - 3);
         if (targetString == targetItem) {
-            alert('You win!')
+            resultBlock.fadeIn(150);
+            isWinner = true;
+            console.log(isWinner);
         }
     });
-    function increment (inc='8'){
-        $('timer').html(inc);
-    }
-    var inc = 0;
-    let timerId = setInterval(() => increment(inc+1), 1000);
 
-// остановить вывод через 10 секунд
-    setTimeout(() => { clearInterval(timerId); alert('Game Over'); }, 10000);
+    $('.button-repeat').on('click', function (e) {
+        $('.timer').text(10);
+        isWinner = false;
+        resultBlock.fadeOut(150);
+        console.log(isWinner);
+    });
+
 }
 
