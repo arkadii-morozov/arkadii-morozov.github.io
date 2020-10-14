@@ -56,15 +56,15 @@ body .tools .tools-items .owl-dots{
 	margin: 0px auto;
 }
 .tools .tools-items .item > img{
-    	width: 330px;
+	width: 330px;
 	height: 180px;
 	margin: 0px auto;
 }
 body .tools .tools-items .owl-dots{
 	display: none;
-    	margin: 0px;
-    	bottom: 0px;
-    	width: 100%;
+	margin: 0px;
+	bottom: 0px;
+	width: 100%;
 }
 .tools .owl-theme .owl-nav {
 /*     position: absolute;
@@ -77,11 +77,11 @@ body .tools .tools-items .owl-dots{
 	position: relative;
 }
 .tools .nav-panel .owl-button-prev, .tools .nav-panel .owl-button-next{
-    	position: absolute;
-    	display: block;
-    	height: 200px;
-    	width: 200px;
-    	color: rgba(33,33,33, 0.3);;
+	position: absolute;
+	display: block;
+	height: 200px;
+	width: 200px;
+	color: rgba(33, 33, 33, 0.3);;
 	top: -200px;
 	z-index: 1000;
 }
@@ -96,11 +96,11 @@ body .tools .tools-items .owl-dots{
 	background: rgba(33,33,33, 0.3);
 }
 .tools .nav-panel  .fa-5x{
-    	font-size: 5em;
-    	display: block;
-    	margin: 60px auto;
-    	width: 30px;
-    	height: 80px;
+	font-size: 5em;
+	display: block;
+	margin: 60px auto;
+	width: 30px;
+	height: 80px;
 }
 
 .owl-prev, .owl-next, .owl-button-prev, .owl-button-next{
@@ -146,7 +146,7 @@ body .tools .tools-items .owl-dots{
 @media screen and (max-width: 1220px){
 /*=============aboutMe==================*/
 .aboutMe_container{
-	width: 992px;
+	width: 940px;
 }
 .photo{
 	width: 300px;
@@ -171,7 +171,7 @@ body .tools .tools-items .owl-dots{
 @media screen and (max-width: 992px){
 /*===========aboutMe================*/
 .aboutMe_container{
-	width: 768px;
+	width: 750px;
 }
 .photo{
 	width: 200px;
@@ -201,12 +201,12 @@ body .tools .tools-items .owl-dots{
 .aboutMe_container{
 	flex-direction: column;
 	height: 500px;
-	width: 576px;
+	width: 530px;
 }
 .photo {
     background-size: cover;
-    width: 200px;
-    height: 200px;
+	width: 170px;
+    height: 170px;
     margin: 0px auto;
 }
 .aboutMe_text{

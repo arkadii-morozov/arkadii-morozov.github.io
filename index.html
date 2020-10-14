@@ -2,104 +2,126 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+	<title>Главная</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/flex_model.css">
 	<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap&subset=cyrillic" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script
-  src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-	<script src="js/main.js"></script>
 </head>
 <body>
 	<header class="header">
-		<div class="logo">
-			Логотип
-		</div>
-		<nav class="navigation">
-			<label class="menu__btn" for="button">
-    				<span></span>
-  			</label>
-			<div class="name-menu">Меню</div>
-			<ul class="nav">
-				<li><a class="menu__item" href="#">Главная</a></li>
-				<li><a class="menu__item" href="#portfolio">Портфолио</a></li>
-				<li><a class="menu__item" href="about-me.html" target="itsMe">Обо мне</a></li>
-				<li><a class="menu__item" href="Blog.html">Блог</a></li>
-				<li><a class="menu__item" href="#contacts">Контакты</a></li>
-			</ul>
-			<ul class="drop-nav" id="test">
-				<li><a class="menu__item" href="#">Главная</a></li>
-				<li><a class="menu__item" href="#portfolio">Портфолио</a></li>
-				<li><a class="menu__item" href="about-me.html" target="itsMe">Обо мне</a></li>
-				<li><a class="menu__item" href="Blog.html">Блог</a></li>
-				<li><a class="menu__item" href="#contacts">Контакты</a></li>
-			</ul>
-		</nav>	
+        <div class="container">
+            <div class="header-wrapper">
+                <div class="logo">
+                    Логотип
+                </div>
+                <nav class="navigation">
+                    <label class="menu__btn">
+                        <span></span>
+                    </label>
+                    <ul class="nav">
+                        <li><a class="menu__item" href="#">Главная</a></li>
+                        <li><a class="menu__item scrollingPortf" href="#portfolio">Портфолио</a></li>
+                        <li><a class="menu__item" href="about-me.html" target="_blank">Обо мне</a></li>
+                        <li><a class="menu__item" href="Blog.html" target="_blank">Блог</a></li>
+                        <li><a class="menu__item scrollingCont" href="#media-block">Контакты</a></li>
+                    </ul>
+                    <ul class="drop-nav" id="test">
+                        <li><a class="menu__item" href="#">Главная</a></li>
+                        <li><a class="menu__item scrollingPortf" href="#portfolio">Портфолио</a></li>
+                        <li><a class="menu__item" href="about-me.html" target="_blank">Обо мне</a></li>
+                        <li><a class="menu__item" href="Blog.html" target="_blank">Блог</a></li>
+                        <li><a class="menu__item scrollingCont" href="#media-block">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
 	</header>
-	<section class="welcome_background">
-		<div class="welcome">
-			<h1>Здравствуйте, меня зовут Морозов&nbsp;Аркадий,<br>я web разработчик.</h1>
-			<p>На этом сайте вы можете ознакомиться с примерами моих работ.</p>		
-		</div>
+	<section class="section-home-page">
+        <div class="container">
+            <div class="wrapper-home-page">
+                <div class="welcome">
+                    <h1>Здравствуйте, меня зовут Морозов&nbsp;Аркадий,<br>я web разработчик.</h1>
+                    <p>На этом сайте вы можете ознакомиться с примерами моих работ.</p>
+                </div>
+            </div>
+        </div>
 	</section>
 	<section class="portfolio" id="portfolio">
-		<div class="head"><h1>Мои работы</h1></div>
-		<div class="wrapper">	
-			<div class="syte"><span>Тестовый пример</span><a href="#"><img src="pic/test_img1.png" alt=""></a></div>
-			<div class="syte"><span>Тестовый пример</span><a href="#"><img src="pic/test _img3.png" alt=""></a></div>
-			<div class="syte"><span>Тестовый пример</span><a href="#"><img src="pic/test _img4.png" alt=""></a></div>
-			<div class="syte"><span>Тестовый пример</span><a href="#"><img src="pic/test _img5.png" alt=""></a></div>
-			<div class="syte"><span>Тестовый пример</span><a href="#"><img src="pic/test _img6_350.png" alt=""></a></div>
-			<div class="syte"><span>Тестовый пример</span><a href="#"><img src="pic/test _img6.png" alt=""></a></div>
+		<div class="container">
+			<div class="head"><h1>Мои работы</h1></div>
+			<div class="wrapper">
+				<div class="site"><a href="#"><img src="pic/test_img1.png" alt=""></a></div>
+				<div class="site"><a href="#"><img src="pic/test _img3.png" alt=""></a></div>
+				<div class="site"><a href="#"><img src="pic/test _img4.png" alt=""></a></div>
+				<div class="site"><a href="#"><img src="pic/test _img5.png" alt=""></a></div>
+				<div class="site"><a href="#"><img src="pic/test _img6_350.png" alt=""></a></div>
+				<div class="site"><a href="#"><img src="pic/test _img6.png" alt=""></a></div>
+			</div>
 		</div>
 	</section>
-	<section class="connect">
-		<div class="connect-block">
-			<div id="container" class="container">
-				<h3 class="form-title">
-					 Связаться со мной	
-				</h3>
-				<div class="block-form">
-					<form action="#">
-						<input type="text" name="name" placeholder="Имя" required class="input"> 
-						<input type="email" name="email" placeholder="E-mail" required class="input"> 
-						<input type="tel" name="phone" placeholder="Телефон" required class="input">
-						<input type="text" name="text" placeholder="Сообщение" required class="input">	
-						<button type="submit" class="btn btn-form">Отправить</button>
-					</form>
-				</div>
-			</div>
-			<div class="contacts" id="contacts">
-				<h3>Контакты</h3>
-				<div class="email-block">
-					<p>E-MAIL</p>
-					<a href="https://www.google.com/intl/ru/gmail/about/">qwerty@gmail.com</a>
-				</div>
-				<div class="tel-block">
-					<p>ТЕЛЕФОН</p>
-
-					<p>+7 (987) 654-32-10</p>
-				</div>
-				<div class="social-block">
-					<a href="https://vk.com/"><img src="pic/VK_icon.png" alt="vk"></a>
-					<a href="https://www.instagram.com/?hl=ru"><img src="pic/instagram_icon.png" alt="instagram"></a>
-					<a href="https://twitter.com/?lang=ru"><img src="pic/twitter.png" alt="twitter"></a>
-				</div>
-			</div>
+	<section class="contact-section">
+		<div class="container">
+            <div class="contact-wrapper">
+                <div id="contact-form" class="contact-form">
+                    <h3 class="form-title">
+                        Связаться со мной
+                    </h3>
+                    <div class="form-wrapper">
+                        <form action="#">
+                            <div class="col-12">
+                                <input type="text" name="name" placeholder="Имя" required >
+                            </div>
+                            <div class="col-12">
+                                <input type="email" name="email" placeholder="E-mail" required >
+                            </div>
+                            <div class="col-12">
+                                <textarea type="text" name="text" placeholder="Сообщение" rows="4" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-form ">Отправить</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="media-block" id="media-block">
+                    <h3>Контакты</h3>
+                    <div class="contact-info">
+                        <div class="email-image">
+                            <img src="pic/email.png" alt="email">
+                        </div>
+                        <div class="contact-text">
+                            <p>E-MAIL</p>
+                            <a href="https://www.google.com/intl/ru/gmail/about/">qwerty@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-info">
+                        <div class="telephone-image">
+                            <img src="pic/tel_48.png" alt="phone">
+                        </div>
+                        <div class="contact-text">
+                            <p>ТЕЛЕФОН</p>
+                            <p>+7(987)654-32-10</p>
+                        </div>
+                    </div>
+                    <div class="contact-info social-block">
+                        <a href="https://vk.com/"><img src="pic/VK_icon.png" alt="vk"></a>
+                        <a href="https://www.instagram.com/?hl=ru"><img src="pic/instagram_icon.png" alt="instagram"></a>
+                        <a href="https://twitter.com/?lang=ru"><img src="pic/twitter.png" alt="twitter"></a>
+                    </div>
+                </div>
+            </div>
 		</div>	
 	</section>
-	<footer><h4>Copyright © Морозов Аркадий 2019г. Все авторсике права защищены.</h4>
+	<footer>
+        <div class="container">
+            <h4>Copyright © Морозов Аркадий 2019г. Все авторсике права защищены.</h4>
+        </div>
 	</footer>
 	<a href="#" class="scrollup" >
 		<i class="fa fa-angle-up fa-4x" aria-hidden="true"></i>
 		<i class="fa fa-angle-up fa-3x" aria-hidden="true"></i>
 	</a>
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/main.js"></script>
 </body>
 </html>
