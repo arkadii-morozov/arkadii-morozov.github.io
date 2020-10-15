@@ -175,9 +175,6 @@ img{
 	background: #fff;
 	box-shadow: 0px 0px 15px rgba(0,0,0, 0.2);
 }
-.form-wrapper{
-
-}
 .form-title{
 	text-align: center;
 	padding: 20px;
@@ -232,6 +229,9 @@ img{
 	margin: 0px 0px 20px calc(50% - 100px);
 	display: flex;
 	justify-content: flex-start;
+}
+.email-image, telephone-image{
+	min-width: 48px;
 }
 .contact-text{
 	margin-left: 20px;
